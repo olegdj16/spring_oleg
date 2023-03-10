@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Comment">
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Comment, CommentRepository, DBCommentRepository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/config/ProjectConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1678419722595" duration="1505000" />
       <workItem from="1678421238909" duration="122000" />
       <workItem from="1678421370676" duration="3168000" />
-      <workItem from="1678481903065" duration="2089000" />
+      <workItem from="1678481903065" duration="3396000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678483315532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit Comment, CommentRepository, DBCommentRepository">
+      <created>1678484572796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678484572796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +140,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="commit pom xml files" />
     <MESSAGE value="commit Comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Comment" />
+    <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Comment, CommentRepository, DBCommentRepository" />
   </component>
 </project>
