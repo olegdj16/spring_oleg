@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Comment, CommentRepository, DBCommentRepository">
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit ProjectConfig, CommentService">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/repository/DBCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Abstraction/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +63,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "inlay.hints",
     "spring.configuration.checksum": "345f6d3dbb00d67b8a68467ea5677ec1",
     "vue.rearranger.settings.migration": "true"
   }
@@ -75,6 +78,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
+      <module name="Spring-04-Abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring_oleg" />
       <method v="2">
@@ -88,6 +104,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CydeoApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +121,7 @@
       <workItem from="1678419722595" duration="1505000" />
       <workItem from="1678421238909" duration="122000" />
       <workItem from="1678421370676" duration="3168000" />
-      <workItem from="1678481903065" duration="3396000" />
+      <workItem from="1678481903065" duration="9386000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -130,17 +151,40 @@
       <option name="project" value="LOCAL" />
       <updated>1678484572796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit ProjectConfig, CommentService">
+      <created>1678488514388</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678488514388</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="commit pom xml files" />
     <MESSAGE value="commit Comment" />
     <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Comment, CommentRepository, DBCommentRepository" />
+    <MESSAGE value="commit ProjectConfig, CommentService" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit ProjectConfig, CommentService" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
