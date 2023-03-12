@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="BeanScope">
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/cydeo/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/cydeo/CydeoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/cydeo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java/com/cydeo/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/cydeo/CydeoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/cydeo/CydeoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-05-Core-BeanScope/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -62,7 +64,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "345f6d3dbb00d67b8a68467ea5677ec1",
+    "spring.configuration.checksum": "f73495a64fece6f8c3706210a5ad838b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,10 +78,10 @@
       <recent name="C:\Users\civic\Documents\spring_oleg" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CydeoApp (1)">
-    <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CydeoApplication">
+    <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
-      <module name="Spring-05-Core-BeanScope" />
+      <module name="Spring-04-Abstraction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -92,7 +94,7 @@
     </configuration>
     <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
-      <module name="Spring-04-Abstraction" />
+      <module name="Spring-05-Core-BeanScope" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -116,6 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CydeoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-06-SpringBoot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.CydeoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CydeoApp (1)" />
@@ -134,7 +143,9 @@
       <workItem from="1678419722595" duration="1505000" />
       <workItem from="1678421238909" duration="122000" />
       <workItem from="1678421370676" duration="3168000" />
-      <workItem from="1678481903065" duration="11413000" />
+      <workItem from="1678481903065" duration="11875000" />
+      <workItem from="1678518240042" duration="978000" />
+      <workItem from="1678586795015" duration="963000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -185,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678504370357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit">
+      <created>1678506540937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678506540938</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,9 +225,9 @@
     <MESSAGE value="commit Comment" />
     <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
     <MESSAGE value="commit ProjectConfig, CommentService" />
-    <MESSAGE value="commit" />
     <MESSAGE value="BeanScope" />
-    <option name="LAST_COMMIT_MESSAGE" value="BeanScope" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
