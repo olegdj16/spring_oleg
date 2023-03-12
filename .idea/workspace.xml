@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit SpringBoot demo">
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit SpringBoot stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/cydeo/CydeoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/cydeo/CydeoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/HELP.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-06-SpringBoot-Demo/src/main/java/com/cydeo/respository",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -154,7 +152,7 @@
       <workItem from="1678421370676" duration="3168000" />
       <workItem from="1678481903065" duration="11875000" />
       <workItem from="1678518240042" duration="978000" />
-      <workItem from="1678586795015" duration="6512000" />
+      <workItem from="1678586795015" duration="8652000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678587966678</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit SpringBoot stuff">
+      <created>1678597506837</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678597506837</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +249,8 @@
     <MESSAGE value="BeanScope" />
     <MESSAGE value="commit" />
     <MESSAGE value="commit SpringBoot demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit SpringBoot demo" />
+    <MESSAGE value="commit SpringBoot stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit SpringBoot stuff" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
