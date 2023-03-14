@@ -1,0 +1,38 @@
+LiveClass: 02/22/2023
+TASK 1:
+1- Create new module - spring-review-IoC
+2- Add spring core dependency
+3- Create one package named bean_practice
+4- Create 2 classes
+    -FullTimeEmployee
+    -PartTimeEmployee
+5- Create one method for each class createAccount() - print something
+6- get beans using spring core @Bean annotation
+
+7- We need 2 String objects that have
+    - "Welcome to CydeoApp"
+    - "Spring Core Practice"
+8- print those objects
+9- Use new config class
+
+----------
+
+TASK 2:
+1- Create new package under java stereotype_annotations
+2- Create Model and Config packages
+3- Under the Model package
+    - DataStructure
+    - Devops
+    - Microservices
+4- Create method for each of them which is getTotalHours() and print some hour
+    exp: "Total hours: " + 20;
+5- We only need object from DataStructure and Microservices
+6- use Stereotype annotation way to solve it.
+
+---------
+
+TASK 3:
+7- Create ExtraHours class inside the model package
+8- Create a method: getHours() that returns 10;
+9- Use this method inside the DataStructure class to increase the total hours.
+10- Try to use lombok annotation for creating constructor
