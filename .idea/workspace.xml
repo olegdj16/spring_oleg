@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring MVC - Model">
-      <change afterPath="$PROJECT_DIR$/spring-review-01-IoC/pom.xml" afterDir="false" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="spring-review-01-IoC initial commit">
+      <change afterPath="$PROJECT_DIR$/spring-review-project/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-review-01-IoC/src/main/java/bean_practice/task1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-review-01-IoC/src/main/java/bean_practice/task1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -103,10 +102,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.stereotype_annotations.CydeoApp">
-    <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CydeoApp (1)">
+    <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
-      <module name="Spring-04-Abstraction" />
+      <module name="spring-review-project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -208,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CydeoApp (1)" />
         <item itemvalue="Application.stereotype_annotations.CydeoApp" />
         <item itemvalue="Application.bean_practice.CydeoApp" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
         <item itemvalue="JavaScript Debug.mentor-list.html" />
-        <item itemvalue="Application.CydeoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +231,7 @@
       <workItem from="1678586795015" duration="31326000" />
       <workItem from="1678734417243" duration="6019000" />
       <workItem from="1678778403134" duration="1139000" />
-      <workItem from="1678812673778" duration="10663000" />
+      <workItem from="1678812673778" duration="13873000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -346,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678734425942</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="spring-review-01-IoC initial commit">
+      <created>1678829255929</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678829255929</updated>
+    </task>
+    <task id="LOCAL-00018" summary="spring-review-01-IoC initial commit">
+      <created>1678829266893</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678829266893</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +388,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Spring MVS - Model" />
     <MESSAGE value="Spring MVC - Model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring MVC - Model" />
+    <MESSAGE value="spring-review-01-IoC initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-review-01-IoC initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
