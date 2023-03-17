@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring MVC - Model">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_2023_6_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_2023_6_32_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/mentor/mentor-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/mentor/mentor-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/cydeo/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/cydeo/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/cydeo/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-review-project/target/classes/com/cydeo/repository/RegularHours.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-review-project/target/classes/com/cydeo/repository/RegularHours.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-review-project/target/classes/com/cydeo/service/SalaryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-review-project/target/classes/com/cydeo/service/SalaryService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,31 +51,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/civic/Documents/spring_oleg&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3c3d70aff69afdb01c1c052c4a71bb2c&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "spring.configuration.checksum": "70b4d75b01b2e838c413ca9d908b5b53",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\respository" />
@@ -85,11 +85,11 @@
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-02-Core-Wiring\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\static\images" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\static\js" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap-4.1.3-dist\js" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap-4.1.3-dist\css" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap-4.1.3-dist" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.cydeo" />
@@ -239,6 +239,7 @@
       <workItem from="1678911900987" duration="8599000" />
       <workItem from="1678925505229" duration="1709000" />
       <workItem from="1678934474966" duration="3213000" />
+      <workItem from="1678980983794" duration="13727000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
