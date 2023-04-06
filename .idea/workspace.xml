@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring MVC - Model">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_2023_6_32_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_2023_6_32_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_2023_6_32_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_16_2023_12_48_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_16_2023_12_48_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_16_2023_12_48_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/mentor/mentor-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/mentor/mentor-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/cydeo/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +59,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "70b4d75b01b2e838c413ca9d908b5b53",
+    "spring.configuration.checksum": "3c3d70aff69afdb01c1c052c4a71bb2c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring09SpringThymeleafApplication">
+  <component name="RunManager" selected="Spring Boot.Spring10OrmTableCreationApplication">
     <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
       <module name="spring-review-project" />
@@ -209,6 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring10OrmTableCreationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-10-ORM-TableCreation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring10OrmTableCreationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
@@ -240,6 +245,7 @@
       <workItem from="1678925505229" duration="1709000" />
       <workItem from="1678934474966" duration="3213000" />
       <workItem from="1678980983794" duration="13727000" />
+      <workItem from="1680817171156" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
