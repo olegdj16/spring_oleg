@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring MVC - Model">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_14_2023_6_32_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_16_2023_12_48_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_16_2023_12_48_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_16_2023_12_48_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="ORM Part-1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,7 +240,7 @@
       <workItem from="1678925505229" duration="1709000" />
       <workItem from="1678934474966" duration="3213000" />
       <workItem from="1678980983794" duration="13727000" />
-      <workItem from="1680817171156" duration="413000" />
+      <workItem from="1680817171156" duration="3647000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -380,7 +375,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678832893885</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Spring 10">
+      <created>1680817714584</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680817714584</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ORM Part-1">
+      <created>1680819368199</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680819368199</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +420,9 @@
     <MESSAGE value="Spring MVC - Model" />
     <MESSAGE value="spring-review-01-IoC initial commit" />
     <MESSAGE value="task 4 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 4 done" />
+    <MESSAGE value="Spring 10" />
+    <MESSAGE value="ORM Part-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ORM Part-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
