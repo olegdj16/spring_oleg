@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit2" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/data.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,19 +27,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="a00e6a7f-9380-481c-97fb-cf4611fd34b2" />
-        <option name="url" value="https://github.com/olegdj16/spring_oleg.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +71,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;c8fcedc7f7fbcc2d42061752c78a0da4&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5a249c365568b1c1a0b0a41919a4736e&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -252,7 +245,7 @@
       <workItem from="1681016367186" duration="668000" />
       <workItem from="1681090906572" duration="844000" />
       <workItem from="1681092053975" duration="3083000" />
-      <workItem from="1681171167006" duration="1845000" />
+      <workItem from="1681171167006" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -416,20 +409,13 @@
       <updated>1680921799852</updated>
     </task>
     <task id="LOCAL-00024" summary="commit">
-      <created>1681199307264</created>
+      <created>1681197791918</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1681199307264</updated>
+      <updated>1681197791918</updated>
     </task>
-    <task id="LOCAL-00025" summary="commit">
-      <created>1681199350935</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1681199350935</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
