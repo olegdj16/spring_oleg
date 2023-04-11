@@ -1,0 +1,824 @@
+Index: Spring-10-ORM-TableCreation/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/.gitignore b/Spring-10-ORM-TableCreation/.gitignore
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/.gitignore	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,33 +0,0 @@
+-HELP.md
+-target/
+-!.mvn/wrapper/maven-wrapper.jar
+-!**/src/main/**/target/
+-!**/src/test/**/target/
+-
+-### STS ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-
+-### IntelliJ IDEA ###
+-.idea
+-*.iws
+-*.iml
+-*.ipr
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-build/
+-!**/src/main/**/build/
+-!**/src/test/**/build/
+-
+-### VS Code ###
+-.vscode/
+Index: Spring-10-ORM-TableCreation/src/main/java/com/cydeo/Spring10OrmTableCreationApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/Spring10OrmTableCreationApplication.java b/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/Spring10OrmTableCreationApplication.java
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/Spring10OrmTableCreationApplication.java	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,13 +0,0 @@
+-package com.cydeo;
+-
+-import org.springframework.boot.SpringApplication;
+-import org.springframework.boot.autoconfigure.SpringBootApplication;
+-
+-@SpringBootApplication
+-public class Spring10OrmTableCreationApplication {
+-
+-    public static void main(String[] args) {
+-        SpringApplication.run(Spring10OrmTableCreationApplication.class, args);
+-    }
+-
+-}
+Index: Spring-10-ORM-TableCreation/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/src/main/resources/application.properties b/Spring-10-ORM-TableCreation/src/main/resources/application.properties
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/src/main/resources/application.properties	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,11 +0,0 @@
+-spring.datasource.url=jdbc:h2:mem:testdb
+-spring.datasource.username=sa
+-spring.datasource.password=
+-
+-spring.datasource.driver-class-name=org.h2.Driver
+-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+-
+-spring.jpa.show-sql=true
+-spring.h2.console.path=/h2-console
+-spring.h2.console.enabled=true
+-
+Index: Spring-10-ORM-TableCreation/.mvn/wrapper/maven-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/.mvn/wrapper/maven-wrapper.properties b/Spring-10-ORM-TableCreation/.mvn/wrapper/maven-wrapper.properties
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/.mvn/wrapper/maven-wrapper.properties	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,18 +0,0 @@
+-# Licensed to the Apache Software Foundation (ASF) under one
+-# or more contributor license agreements.  See the NOTICE file
+-# distributed with this work for additional information
+-# regarding copyright ownership.  The ASF licenses this file
+-# to you under the Apache License, Version 2.0 (the
+-# "License"); you may not use this file except in compliance
+-# with the License.  You may obtain a copy of the License at
+-#
+-#   https://www.apache.org/licenses/LICENSE-2.0
+-#
+-# Unless required by applicable law or agreed to in writing,
+-# software distributed under the License is distributed on an
+-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+-# KIND, either express or implied.  See the License for the
+-# specific language governing permissions and limitations
+-# under the License.
+-distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.7/apache-maven-3.8.7-bin.zip
+-wrapperUrl=https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.1/maven-wrapper-3.1.1.jar
+Index: Spring-10-ORM-TableCreation/src/test/java/com/cydeo/Spring10OrmTableCreationApplicationTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/src/test/java/com/cydeo/Spring10OrmTableCreationApplicationTests.java b/Spring-10-ORM-TableCreation/src/test/java/com/cydeo/Spring10OrmTableCreationApplicationTests.java
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/src/test/java/com/cydeo/Spring10OrmTableCreationApplicationTests.java	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,13 +0,0 @@
+-package com.cydeo;
+-
+-import org.junit.jupiter.api.Test;
+-import org.springframework.boot.test.context.SpringBootTest;
+-
+-@SpringBootTest
+-class Spring10OrmTableCreationApplicationTests {
+-
+-    @Test
+-    void contextLoads() {
+-    }
+-
+-}
+Index: Spring-10-ORM-TableCreation/mvnw
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/mvnw b/Spring-10-ORM-TableCreation/mvnw
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/mvnw	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,316 +0,0 @@
+-#!/bin/sh
+-# ----------------------------------------------------------------------------
+-# Licensed to the Apache Software Foundation (ASF) under one
+-# or more contributor license agreements.  See the NOTICE file
+-# distributed with this work for additional information
+-# regarding copyright ownership.  The ASF licenses this file
+-# to you under the Apache License, Version 2.0 (the
+-# "License"); you may not use this file except in compliance
+-# with the License.  You may obtain a copy of the License at
+-#
+-#    https://www.apache.org/licenses/LICENSE-2.0
+-#
+-# Unless required by applicable law or agreed to in writing,
+-# software distributed under the License is distributed on an
+-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+-# KIND, either express or implied.  See the License for the
+-# specific language governing permissions and limitations
+-# under the License.
+-# ----------------------------------------------------------------------------
+-
+-# ----------------------------------------------------------------------------
+-# Maven Start Up Batch script
+-#
+-# Required ENV vars:
+-# ------------------
+-#   JAVA_HOME - location of a JDK home dir
+-#
+-# Optional ENV vars
+-# -----------------
+-#   M2_HOME - location of maven2's installed home dir
+-#   MAVEN_OPTS - parameters passed to the Java VM when running Maven
+-#     e.g. to debug Maven itself, use
+-#       set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
+-#   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
+-# ----------------------------------------------------------------------------
+-
+-if [ -z "$MAVEN_SKIP_RC" ] ; then
+-
+-  if [ -f /usr/local/etc/mavenrc ] ; then
+-    . /usr/local/etc/mavenrc
+-  fi
+-
+-  if [ -f /etc/mavenrc ] ; then
+-    . /etc/mavenrc
+-  fi
+-
+-  if [ -f "$HOME/.mavenrc" ] ; then
+-    . "$HOME/.mavenrc"
+-  fi
+-
+-fi
+-
+-# OS specific support.  $var _must_ be set to either true or false.
+-cygwin=false;
+-darwin=false;
+-mingw=false
+-case "`uname`" in
+-  CYGWIN*) cygwin=true ;;
+-  MINGW*) mingw=true;;
+-  Darwin*) darwin=true
+-    # Use /usr/libexec/java_home if available, otherwise fall back to /Library/Java/Home
+-    # See https://developer.apple.com/library/mac/qa/qa1170/_index.html
+-    if [ -z "$JAVA_HOME" ]; then
+-      if [ -x "/usr/libexec/java_home" ]; then
+-        export JAVA_HOME="`/usr/libexec/java_home`"
+-      else
+-        export JAVA_HOME="/Library/Java/Home"
+-      fi
+-    fi
+-    ;;
+-esac
+-
+-if [ -z "$JAVA_HOME" ] ; then
+-  if [ -r /etc/gentoo-release ] ; then
+-    JAVA_HOME=`java-config --jre-home`
+-  fi
+-fi
+-
+-if [ -z "$M2_HOME" ] ; then
+-  ## resolve links - $0 may be a link to maven's home
+-  PRG="$0"
+-
+-  # need this for relative symlinks
+-  while [ -h "$PRG" ] ; do
+-    ls=`ls -ld "$PRG"`
+-    link=`expr "$ls" : '.*-> \(.*\)$'`
+-    if expr "$link" : '/.*' > /dev/null; then
+-      PRG="$link"
+-    else
+-      PRG="`dirname "$PRG"`/$link"
+-    fi
+-  done
+-
+-  saveddir=`pwd`
+-
+-  M2_HOME=`dirname "$PRG"`/..
+-
+-  # make it fully qualified
+-  M2_HOME=`cd "$M2_HOME" && pwd`
+-
+-  cd "$saveddir"
+-  # echo Using m2 at $M2_HOME
+-fi
+-
+-# For Cygwin, ensure paths are in UNIX format before anything is touched
+-if $cygwin ; then
+-  [ -n "$M2_HOME" ] &&
+-    M2_HOME=`cygpath --unix "$M2_HOME"`
+-  [ -n "$JAVA_HOME" ] &&
+-    JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
+-  [ -n "$CLASSPATH" ] &&
+-    CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
+-fi
+-
+-# For Mingw, ensure paths are in UNIX format before anything is touched
+-if $mingw ; then
+-  [ -n "$M2_HOME" ] &&
+-    M2_HOME="`(cd "$M2_HOME"; pwd)`"
+-  [ -n "$JAVA_HOME" ] &&
+-    JAVA_HOME="`(cd "$JAVA_HOME"; pwd)`"
+-fi
+-
+-if [ -z "$JAVA_HOME" ]; then
+-  javaExecutable="`which javac`"
+-  if [ -n "$javaExecutable" ] && ! [ "`expr \"$javaExecutable\" : '\([^ ]*\)'`" = "no" ]; then
+-    # readlink(1) is not available as standard on Solaris 10.
+-    readLink=`which readlink`
+-    if [ ! `expr "$readLink" : '\([^ ]*\)'` = "no" ]; then
+-      if $darwin ; then
+-        javaHome="`dirname \"$javaExecutable\"`"
+-        javaExecutable="`cd \"$javaHome\" && pwd -P`/javac"
+-      else
+-        javaExecutable="`readlink -f \"$javaExecutable\"`"
+-      fi
+-      javaHome="`dirname \"$javaExecutable\"`"
+-      javaHome=`expr "$javaHome" : '\(.*\)/bin'`
+-      JAVA_HOME="$javaHome"
+-      export JAVA_HOME
+-    fi
+-  fi
+-fi
+-
+-if [ -z "$JAVACMD" ] ; then
+-  if [ -n "$JAVA_HOME"  ] ; then
+-    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
+-      # IBM's JDK on AIX uses strange locations for the executables
+-      JAVACMD="$JAVA_HOME/jre/sh/java"
+-    else
+-      JAVACMD="$JAVA_HOME/bin/java"
+-    fi
+-  else
+-    JAVACMD="`\\unset -f command; \\command -v java`"
+-  fi
+-fi
+-
+-if [ ! -x "$JAVACMD" ] ; then
+-  echo "Error: JAVA_HOME is not defined correctly." >&2
+-  echo "  We cannot execute $JAVACMD" >&2
+-  exit 1
+-fi
+-
+-if [ -z "$JAVA_HOME" ] ; then
+-  echo "Warning: JAVA_HOME environment variable is not set."
+-fi
+-
+-CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
+-
+-# traverses directory structure from process work directory to filesystem root
+-# first directory with .mvn subdirectory is considered project base directory
+-find_maven_basedir() {
+-
+-  if [ -z "$1" ]
+-  then
+-    echo "Path not specified to find_maven_basedir"
+-    return 1
+-  fi
+-
+-  basedir="$1"
+-  wdir="$1"
+-  while [ "$wdir" != '/' ] ; do
+-    if [ -d "$wdir"/.mvn ] ; then
+-      basedir=$wdir
+-      break
+-    fi
+-    # workaround for JBEAP-8937 (on Solaris 10/Sparc)
+-    if [ -d "${wdir}" ]; then
+-      wdir=`cd "$wdir/.."; pwd`
+-    fi
+-    # end of workaround
+-  done
+-  echo "${basedir}"
+-}
+-
+-# concatenates all lines of a file
+-concat_lines() {
+-  if [ -f "$1" ]; then
+-    echo "$(tr -s '\n' ' ' < "$1")"
+-  fi
+-}
+-
+-BASE_DIR=`find_maven_basedir "$(pwd)"`
+-if [ -z "$BASE_DIR" ]; then
+-  exit 1;
+-fi
+-
+-##########################################################################################
+-# Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
+-# This allows using the maven wrapper in projects that prohibit checking in binary data.
+-##########################################################################################
+-if [ -r "$BASE_DIR/.mvn/wrapper/maven-wrapper.jar" ]; then
+-    if [ "$MVNW_VERBOSE" = true ]; then
+-      echo "Found .mvn/wrapper/maven-wrapper.jar"
+-    fi
+-else
+-    if [ "$MVNW_VERBOSE" = true ]; then
+-      echo "Couldn't find .mvn/wrapper/maven-wrapper.jar, downloading it ..."
+-    fi
+-    if [ -n "$MVNW_REPOURL" ]; then
+-      jarUrl="$MVNW_REPOURL/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
+-    else
+-      jarUrl="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
+-    fi
+-    while IFS="=" read key value; do
+-      case "$key" in (wrapperUrl) jarUrl="$value"; break ;;
+-      esac
+-    done < "$BASE_DIR/.mvn/wrapper/maven-wrapper.properties"
+-    if [ "$MVNW_VERBOSE" = true ]; then
+-      echo "Downloading from: $jarUrl"
+-    fi
+-    wrapperJarPath="$BASE_DIR/.mvn/wrapper/maven-wrapper.jar"
+-    if $cygwin; then
+-      wrapperJarPath=`cygpath --path --windows "$wrapperJarPath"`
+-    fi
+-
+-    if command -v wget > /dev/null; then
+-        if [ "$MVNW_VERBOSE" = true ]; then
+-          echo "Found wget ... using wget"
+-        fi
+-        if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
+-            wget "$jarUrl" -O "$wrapperJarPath" || rm -f "$wrapperJarPath"
+-        else
+-            wget --http-user=$MVNW_USERNAME --http-password=$MVNW_PASSWORD "$jarUrl" -O "$wrapperJarPath" || rm -f "$wrapperJarPath"
+-        fi
+-    elif command -v curl > /dev/null; then
+-        if [ "$MVNW_VERBOSE" = true ]; then
+-          echo "Found curl ... using curl"
+-        fi
+-        if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
+-            curl -o "$wrapperJarPath" "$jarUrl" -f
+-        else
+-            curl --user $MVNW_USERNAME:$MVNW_PASSWORD -o "$wrapperJarPath" "$jarUrl" -f
+-        fi
+-
+-    else
+-        if [ "$MVNW_VERBOSE" = true ]; then
+-          echo "Falling back to using Java to download"
+-        fi
+-        javaClass="$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.java"
+-        # For Cygwin, switch paths to Windows format before running javac
+-        if $cygwin; then
+-          javaClass=`cygpath --path --windows "$javaClass"`
+-        fi
+-        if [ -e "$javaClass" ]; then
+-            if [ ! -e "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.class" ]; then
+-                if [ "$MVNW_VERBOSE" = true ]; then
+-                  echo " - Compiling MavenWrapperDownloader.java ..."
+-                fi
+-                # Compiling the Java class
+-                ("$JAVA_HOME/bin/javac" "$javaClass")
+-            fi
+-            if [ -e "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.class" ]; then
+-                # Running the downloader
+-                if [ "$MVNW_VERBOSE" = true ]; then
+-                  echo " - Running MavenWrapperDownloader.java ..."
+-                fi
+-                ("$JAVA_HOME/bin/java" -cp .mvn/wrapper MavenWrapperDownloader "$MAVEN_PROJECTBASEDIR")
+-            fi
+-        fi
+-    fi
+-fi
+-##########################################################################################
+-# End of extension
+-##########################################################################################
+-
+-export MAVEN_PROJECTBASEDIR=${MAVEN_BASEDIR:-"$BASE_DIR"}
+-if [ "$MVNW_VERBOSE" = true ]; then
+-  echo $MAVEN_PROJECTBASEDIR
+-fi
+-MAVEN_OPTS="$(concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config") $MAVEN_OPTS"
+-
+-# For Cygwin, switch paths to Windows format before running java
+-if $cygwin; then
+-  [ -n "$M2_HOME" ] &&
+-    M2_HOME=`cygpath --path --windows "$M2_HOME"`
+-  [ -n "$JAVA_HOME" ] &&
+-    JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+-  [ -n "$CLASSPATH" ] &&
+-    CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+-  [ -n "$MAVEN_PROJECTBASEDIR" ] &&
+-    MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
+-fi
+-
+-# Provide a "standardized" way to retrieve the CLI args that will
+-# work with both Windows and non-Windows executions.
+-MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
+-export MAVEN_CMD_LINE_ARGS
+-
+-WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+-
+-exec "$JAVACMD" \
+-  $MAVEN_OPTS \
+-  $MAVEN_DEBUG_OPTS \
+-  -classpath "$MAVEN_PROJECTBASEDIR/.mvn/wrapper/maven-wrapper.jar" \
+-  "-Dmaven.home=${M2_HOME}" \
+-  "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
+-  ${WRAPPER_LAUNCHER} $MAVEN_CONFIG "$@"
+Index: Spring-10-ORM-TableCreation/mvnw.cmd
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/mvnw.cmd b/Spring-10-ORM-TableCreation/mvnw.cmd
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/mvnw.cmd	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,188 +0,0 @@
+-@REM ----------------------------------------------------------------------------
+-@REM Licensed to the Apache Software Foundation (ASF) under one
+-@REM or more contributor license agreements.  See the NOTICE file
+-@REM distributed with this work for additional information
+-@REM regarding copyright ownership.  The ASF licenses this file
+-@REM to you under the Apache License, Version 2.0 (the
+-@REM "License"); you may not use this file except in compliance
+-@REM with the License.  You may obtain a copy of the License at
+-@REM
+-@REM    https://www.apache.org/licenses/LICENSE-2.0
+-@REM
+-@REM Unless required by applicable law or agreed to in writing,
+-@REM software distributed under the License is distributed on an
+-@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+-@REM KIND, either express or implied.  See the License for the
+-@REM specific language governing permissions and limitations
+-@REM under the License.
+-@REM ----------------------------------------------------------------------------
+-
+-@REM ----------------------------------------------------------------------------
+-@REM Maven Start Up Batch script
+-@REM
+-@REM Required ENV vars:
+-@REM JAVA_HOME - location of a JDK home dir
+-@REM
+-@REM Optional ENV vars
+-@REM M2_HOME - location of maven2's installed home dir
+-@REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+-@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a keystroke before ending
+-@REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
+-@REM     e.g. to debug Maven itself, use
+-@REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
+-@REM MAVEN_SKIP_RC - flag to disable loading of mavenrc files
+-@REM ----------------------------------------------------------------------------
+-
+-@REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
+-@echo off
+-@REM set title of command window
+-title %0
+-@REM enable echoing by setting MAVEN_BATCH_ECHO to 'on'
+-@if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
+-
+-@REM set %HOME% to equivalent of $HOME
+-if "%HOME%" == "" (set "HOME=%HOMEDRIVE%%HOMEPATH%")
+-
+-@REM Execute a user defined script before this one
+-if not "%MAVEN_SKIP_RC%" == "" goto skipRcPre
+-@REM check for pre script, once with legacy .bat ending and once with .cmd ending
+-if exist "%USERPROFILE%\mavenrc_pre.bat" call "%USERPROFILE%\mavenrc_pre.bat" %*
+-if exist "%USERPROFILE%\mavenrc_pre.cmd" call "%USERPROFILE%\mavenrc_pre.cmd" %*
+-:skipRcPre
+-
+-@setlocal
+-
+-set ERROR_CODE=0
+-
+-@REM To isolate internal variables from possible post scripts, we use another setlocal
+-@setlocal
+-
+-@REM ==== START VALIDATION ====
+-if not "%JAVA_HOME%" == "" goto OkJHome
+-
+-echo.
+-echo Error: JAVA_HOME not found in your environment. >&2
+-echo Please set the JAVA_HOME variable in your environment to match the >&2
+-echo location of your Java installation. >&2
+-echo.
+-goto error
+-
+-:OkJHome
+-if exist "%JAVA_HOME%\bin\java.exe" goto init
+-
+-echo.
+-echo Error: JAVA_HOME is set to an invalid directory. >&2
+-echo JAVA_HOME = "%JAVA_HOME%" >&2
+-echo Please set the JAVA_HOME variable in your environment to match the >&2
+-echo location of your Java installation. >&2
+-echo.
+-goto error
+-
+-@REM ==== END VALIDATION ====
+-
+-:init
+-
+-@REM Find the project base dir, i.e. the directory that contains the folder ".mvn".
+-@REM Fallback to current working directory if not found.
+-
+-set MAVEN_PROJECTBASEDIR=%MAVEN_BASEDIR%
+-IF NOT "%MAVEN_PROJECTBASEDIR%"=="" goto endDetectBaseDir
+-
+-set EXEC_DIR=%CD%
+-set WDIR=%EXEC_DIR%
+-:findBaseDir
+-IF EXIST "%WDIR%"\.mvn goto baseDirFound
+-cd ..
+-IF "%WDIR%"=="%CD%" goto baseDirNotFound
+-set WDIR=%CD%
+-goto findBaseDir
+-
+-:baseDirFound
+-set MAVEN_PROJECTBASEDIR=%WDIR%
+-cd "%EXEC_DIR%"
+-goto endDetectBaseDir
+-
+-:baseDirNotFound
+-set MAVEN_PROJECTBASEDIR=%EXEC_DIR%
+-cd "%EXEC_DIR%"
+-
+-:endDetectBaseDir
+-
+-IF NOT EXIST "%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config" goto endReadAdditionalConfig
+-
+-@setlocal EnableExtensions EnableDelayedExpansion
+-for /F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config") do set JVM_CONFIG_MAVEN_PROPS=!JVM_CONFIG_MAVEN_PROPS! %%a
+-@endlocal & set JVM_CONFIG_MAVEN_PROPS=%JVM_CONFIG_MAVEN_PROPS%
+-
+-:endReadAdditionalConfig
+-
+-SET MAVEN_JAVA_EXE="%JAVA_HOME%\bin\java.exe"
+-set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
+-set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+-
+-set DOWNLOAD_URL="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
+-
+-FOR /F "usebackq tokens=1,2 delims==" %%A IN ("%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.properties") DO (
+-    IF "%%A"=="wrapperUrl" SET DOWNLOAD_URL=%%B
+-)
+-
+-@REM Extension to allow automatically downloading the maven-wrapper.jar from Maven-central
+-@REM This allows using the maven wrapper in projects that prohibit checking in binary data.
+-if exist %WRAPPER_JAR% (
+-    if "%MVNW_VERBOSE%" == "true" (
+-        echo Found %WRAPPER_JAR%
+-    )
+-) else (
+-    if not "%MVNW_REPOURL%" == "" (
+-        SET DOWNLOAD_URL="%MVNW_REPOURL%/org/apache/maven/wrapper/maven-wrapper/3.1.0/maven-wrapper-3.1.0.jar"
+-    )
+-    if "%MVNW_VERBOSE%" == "true" (
+-        echo Couldn't find %WRAPPER_JAR%, downloading it ...
+-        echo Downloading from: %DOWNLOAD_URL%
+-    )
+-
+-    powershell -Command "&{"^
+-		"$webclient = new-object System.Net.WebClient;"^
+-		"if (-not ([string]::IsNullOrEmpty('%MVNW_USERNAME%') -and [string]::IsNullOrEmpty('%MVNW_PASSWORD%'))) {"^
+-		"$webclient.Credentials = new-object System.Net.NetworkCredential('%MVNW_USERNAME%', '%MVNW_PASSWORD%');"^
+-		"}"^
+-		"[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; $webclient.DownloadFile('%DOWNLOAD_URL%', '%WRAPPER_JAR%')"^
+-		"}"
+-    if "%MVNW_VERBOSE%" == "true" (
+-        echo Finished downloading %WRAPPER_JAR%
+-    )
+-)
+-@REM End of extension
+-
+-@REM Provide a "standardized" way to retrieve the CLI args that will
+-@REM work with both Windows and non-Windows executions.
+-set MAVEN_CMD_LINE_ARGS=%*
+-
+-%MAVEN_JAVA_EXE% ^
+-  %JVM_CONFIG_MAVEN_PROPS% ^
+-  %MAVEN_OPTS% ^
+-  %MAVEN_DEBUG_OPTS% ^
+-  -classpath %WRAPPER_JAR% ^
+-  "-Dmaven.multiModuleProjectDirectory=%MAVEN_PROJECTBASEDIR%" ^
+-  %WRAPPER_LAUNCHER% %MAVEN_CONFIG% %*
+-if ERRORLEVEL 1 goto error
+-goto end
+-
+-:error
+-set ERROR_CODE=1
+-
+-:end
+-@endlocal & set ERROR_CODE=%ERROR_CODE%
+-
+-if not "%MAVEN_SKIP_RC%"=="" goto skipRcPost
+-@REM check for post script, once with legacy .bat ending and once with .cmd ending
+-if exist "%USERPROFILE%\mavenrc_post.bat" call "%USERPROFILE%\mavenrc_post.bat"
+-if exist "%USERPROFILE%\mavenrc_post.cmd" call "%USERPROFILE%\mavenrc_post.cmd"
+-:skipRcPost
+-
+-@REM pause the script if MAVEN_BATCH_PAUSE is set to 'on'
+-if "%MAVEN_BATCH_PAUSE%"=="on" pause
+-
+-if "%MAVEN_TERMINATE_CMD%"=="on" exit %ERROR_CODE%
+-
+-cmd /C exit /B %ERROR_CODE%
+Index: Spring-10-ORM-TableCreation/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/pom.xml b/Spring-10-ORM-TableCreation/pom.xml
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/pom.xml	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ /dev/null	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
+@@ -1,68 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+-    <modelVersion>4.0.0</modelVersion>
+-    <parent>
+-        <groupId>org.springframework.boot</groupId>
+-        <artifactId>spring-boot-starter-parent</artifactId>
+-        <version>3.0.5</version>
+-        <relativePath/> <!-- lookup parent from repository -->
+-    </parent>
+-    <groupId>com.cydeo</groupId>
+-    <artifactId>Spring-10-ORM-TableCreation</artifactId>
+-    <version>0.0.1-SNAPSHOT</version>
+-    <name>Spring-10-ORM-TableCreation</name>
+-    <description>Spring-10-ORM-TableCreation</description>
+-    <properties>
+-        <java.version>11</java.version>
+-    </properties>
+-    <dependencies>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-data-jpa</artifactId>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-web</artifactId>
+-        </dependency>
+-
+-        <dependency>
+-            <groupId>com.h2database</groupId>
+-            <artifactId>h2</artifactId>
+-            <scope>runtime</scope>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.postgresql</groupId>
+-            <artifactId>postgresql</artifactId>
+-            <scope>runtime</scope>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.projectlombok</groupId>
+-            <artifactId>lombok</artifactId>
+-            <optional>true</optional>
+-        </dependency>
+-        <dependency>
+-            <groupId>org.springframework.boot</groupId>
+-            <artifactId>spring-boot-starter-test</artifactId>
+-            <scope>test</scope>
+-        </dependency>
+-    </dependencies>
+-
+-    <build>
+-        <plugins>
+-            <plugin>
+-                <groupId>org.springframework.boot</groupId>
+-                <artifactId>spring-boot-maven-plugin</artifactId>
+-                <configuration>
+-                    <excludes>
+-                        <exclude>
+-                            <groupId>org.project-lombok</groupId>
+-                            <artifactId>lombok</artifactId>
+-                        </exclude>
+-                    </excludes>
+-                </configuration>
+-            </plugin>
+-        </plugins>
+-    </build>
+-
+-</project>
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"Encoding\">\r\n    <file url=\"file://$PROJECT_DIR$/Spring-00-Coupling/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-00-Coupling/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-03-Core-DI/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-03-Core-DI/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-04-Abstraction/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-04-Abstraction/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/spring-review-01-IoC/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/spring-review-01-IoC/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/spring-review-project/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/spring-review-project/src/main/resources\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/src/main/java\" charset=\"UTF-8\" />\r\n    <file url=\"file://$PROJECT_DIR$/src/main/resources\" charset=\"UTF-8\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+--- a/.idea/encodings.xml	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ b/.idea/encodings.xml	(date 1680901922036)
+@@ -18,6 +18,7 @@
+     <file url="file://$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/Spring-10-ORM-TableCreation22/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/spring-review-01-IoC/src/main/java" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/spring-review-01-IoC/src/main/resources" charset="UTF-8" />
+     <file url="file://$PROJECT_DIR$/spring-review-project/src/main/java" charset="UTF-8" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6fb7bb45-b402-45f7-beb3-5f49a5e5bacf\" name=\"Changes\" comment=\"ORM Part-1\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Mo2flmpo0Ji6Xtp4oaxAhuKyHs\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"extract.method.default.visibility\": \"private\",\r\n    \"jdk.selected.JAVA_MODULE\": \"11\",\r\n    \"last_opened_file_path\": \"C:/Users/civic/Documents/spring_oleg\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"inlay.hints\",\r\n    \"spring.configuration.checksum\": \"3c3d70aff69afdb01c1c052c4a71bb2c\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-06-SpringBoot-Demo\\src\\main\\java\\com\\cydeo\\respository\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-06-SpringBoot-Demo\\src\\main\\java\\com\\cydeo\\proxy\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-05-Core-BeanScope\\src\\main\\java\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-03-Core-DI\\src\\main\\java\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-02-Core-Wiring\\src\\main\\java\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\civic\\IdeaProjects\\spring_oleg\\Spring-09-Spring-Thymeleaf\\src\\main\\resources\\templates\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-09-Spring-Thymeleaf\\src\\main\\resources\\static\\images\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-09-Spring-Thymeleaf\\src\\main\\resources\\static\\js\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-09-Spring-Thymeleaf\\src\\main\\resources\\static\\css\\bootstrap-4.1.3-dist\\js\" />\r\n      <recent name=\"C:\\Users\\civic\\Documents\\spring_oleg\\Spring-09-Spring-Thymeleaf\\src\\main\\resources\\static\\css\\bootstrap-4.1.3-dist\\css\" />\r\n    </key>\r\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\r\n      <recent name=\"com.cydeo\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.cydeo.service\" />\r\n      <recent name=\"com.cydeo.model\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.Spring10OrmTableCreationApplication\">\r\n    <configuration name=\"CydeoApp (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.cydeo.CydeoApp\" />\r\n      <module name=\"spring-review-project\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.cydeo.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CydeoApp\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.cydeo.CydeoApp\" />\r\n      <module name=\"Spring-05-Core-BeanScope\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.cydeo.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"bean_practice.CydeoApp\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"bean_practice.CydeoApp\" />\r\n      <module name=\"spring-review-01-IoC\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"bean_practice.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"stereotype_annotations.CydeoApp\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"stereotype_annotations.CydeoApp\" />\r\n      <module name=\"spring-review-01-IoC\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"stereotype_annotations.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"mentor-list.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/spring_oleg/Spring-08-Spring-MVC-Model/templates/mentor/mentor-list.html\" useBuiltInWebServerPort=\"true\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <module name=\"spring_oleg\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <module name=\"spring_oleg\" />\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ControllerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Spring-07-Spring-MVC-Controller\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cydeo.ControllerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CydeoApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Spring-06-SpringBoot-Demo\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cydeo.CydeoApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Spring08SpringMvcModelApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Spring-08-Spring-MVC-Model\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cydeo.Spring08SpringMvcModelApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Spring09SpringThymeleafApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Spring-09-Spring-Thymeleaf\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cydeo.Spring09SpringThymeleafApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.cydeo.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Spring10OrmTableCreationApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"Spring-10-ORM-TableCreation\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cydeo.Spring10OrmTableCreationApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Spring Boot.Spring09SpringThymeleafApplication\" />\r\n        <item itemvalue=\"Application.CydeoApp (1)\" />\r\n        <item itemvalue=\"Application.stereotype_annotations.CydeoApp\" />\r\n        <item itemvalue=\"Application.bean_practice.CydeoApp\" />\r\n        <item itemvalue=\"JavaScript Debug.mentor-list.html\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6fb7bb45-b402-45f7-beb3-5f49a5e5bacf\" name=\"Changes\" comment=\"\" />\r\n      <created>1678419721335</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678419721335</updated>\r\n      <workItem from=\"1678419722595\" duration=\"1505000\" />\r\n      <workItem from=\"1678421238909\" duration=\"122000\" />\r\n      <workItem from=\"1678421370676\" duration=\"3168000\" />\r\n      <workItem from=\"1678481903065\" duration=\"11875000\" />\r\n      <workItem from=\"1678518240042\" duration=\"978000\" />\r\n      <workItem from=\"1678586795015\" duration=\"31326000\" />\r\n      <workItem from=\"1678734417243\" duration=\"6019000\" />\r\n      <workItem from=\"1678778403134\" duration=\"1139000\" />\r\n      <workItem from=\"1678812673778\" duration=\"14940000\" />\r\n      <workItem from=\"1678911900987\" duration=\"8599000\" />\r\n      <workItem from=\"1678925505229\" duration=\"1709000\" />\r\n      <workItem from=\"1678934474966\" duration=\"3213000\" />\r\n      <workItem from=\"1678980983794\" duration=\"13727000\" />\r\n      <workItem from=\"1680817171156\" duration=\"3647000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"commit\">\r\n      <created>1678421339408</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678421339408</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commit pom xml files\">\r\n      <created>1678422440663</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678422440663</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"commit Comment\">\r\n      <created>1678483315532</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678483315532</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"commit Comment, CommentRepository, DBCommentRepository\">\r\n      <created>1678484572796</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678484572796</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"commit ProjectConfig, CommentService\">\r\n      <created>1678488514388</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678488514388</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"commit\">\r\n      <created>1678504225848</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678504225848</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"BeanScope\">\r\n      <created>1678504370357</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678504370357</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"commit\">\r\n      <created>1678506540937</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678506540938</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"commit SpringBoot demo\">\r\n      <created>1678587966678</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678587966678</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"commit SpringBoot stuff\">\r\n      <created>1678597506837</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678597506837</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"commit Spring-07-Spring-MVC-Controller\">\r\n      <created>1678644698237</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678644698237</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"commit\">\r\n      <created>1678656260176</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678656260176</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"commit\">\r\n      <created>1678657809341</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678657809341</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Spring MVS - Model\">\r\n      <created>1678672234852</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678672234852</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Spring MVC - Model\">\r\n      <created>1678689462096</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678689462096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Spring MVC - Model\">\r\n      <created>1678734425942</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678734425942</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"spring-review-01-IoC initial commit\">\r\n      <created>1678829255929</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678829255929</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"spring-review-01-IoC initial commit\">\r\n      <created>1678829266893</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678829266893</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"task 4 done\">\r\n      <created>1678832893885</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678832893885</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Spring 10\">\r\n      <created>1680817714584</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680817714584</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"ORM Part-1\">\r\n      <created>1680819368199</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680819368199</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"22\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"commit pom xml files\" />\r\n    <MESSAGE value=\"commit Comment\" />\r\n    <MESSAGE value=\"commit Comment, CommentRepository, DBCommentRepository\" />\r\n    <MESSAGE value=\"commit ProjectConfig, CommentService\" />\r\n    <MESSAGE value=\"BeanScope\" />\r\n    <MESSAGE value=\"commit SpringBoot demo\" />\r\n    <MESSAGE value=\"commit SpringBoot stuff\" />\r\n    <MESSAGE value=\"commit Spring-07-Spring-MVC-Controller\" />\r\n    <MESSAGE value=\"commit\" />\r\n    <MESSAGE value=\"Spring MVS - Model\" />\r\n    <MESSAGE value=\"Spring MVC - Model\" />\r\n    <MESSAGE value=\"spring-review-01-IoC initial commit\" />\r\n    <MESSAGE value=\"task 4 done\" />\r\n    <MESSAGE value=\"Spring 10\" />\r\n    <MESSAGE value=\"ORM Part-1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ORM Part-1\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 67286b6e4c1109cf2437ec8e8e530f5c497a86c8)
++++ b/.idea/workspace.xml	(date 1680903653611)
+@@ -4,7 +4,19 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="ORM Part-1" />
++    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="ORM Part-1">
++      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/.gitignore" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/mvnw" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/mvnw.cmd" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/pom.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/Spring10OrmTableCreationApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/test/java/com/cydeo/Spring10OrmTableCreationApplicationTests.java" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -20,6 +32,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -65,8 +82,13 @@
+     "project.structure.proportion": "0.15",
+     "project.structure.side.proportion": "0.2",
+     "settings.editor.selected.configurable": "inlay.hints",
+-    "spring.configuration.checksum": "3c3d70aff69afdb01c1c052c4a71bb2c",
++    "spring.configuration.checksum": "c8fcedc7f7fbcc2d42061752c78a0da4",
+     "vue.rearranger.settings.migration": "true"
++  },
++  "keyToStringList": {
++    "DatabaseDriversLRU": [
++      "postgresql"
++    ]
+   }
+ }]]></component>
+   <component name="RecentsManager">
+@@ -241,6 +263,7 @@
+       <workItem from="1678934474966" duration="3213000" />
+       <workItem from="1678980983794" duration="13727000" />
+       <workItem from="1680817171156" duration="3647000" />
++      <workItem from="1680892617072" duration="9685000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit">
+       <created>1678421339408</created>
