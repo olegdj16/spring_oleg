@@ -21,7 +21,7 @@ public class Student {
     private String lastName;
     private String email;
 
-    @Transient //this field will not be availabe in the table
+    @Transient //this field will not be available in the table, if you dont want to show this in table
     private String city;
 
     @Column(columnDefinition = "DATE")
