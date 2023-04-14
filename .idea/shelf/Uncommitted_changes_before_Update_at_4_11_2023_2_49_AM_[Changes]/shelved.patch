@@ -1,0 +1,46 @@
+Index: Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Student.java
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Student.java b/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Student.java
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Student.java	(revision 37b7e055f6ebb11ce64a9897620ecf79798b1af7)
++++ /dev/null	(revision 37b7e055f6ebb11ce64a9897620ecf79798b1af7)
+@@ -1,16 +0,0 @@
+-package com.cydeo.entity;
+-
+-import javax.persistence.Entity;
+-import javax.persistence.Id;
+-
+-@Entity
+-public class Student {
+-
+-    @Id
+-    private Long id;
+-
+-    private String firstName;
+-    private String lastName;
+-    private String email;
+-
+-}
+Index: Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Employee.java
+===================================================================
+diff --git a/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Employee.java b/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Employee.java
+deleted file mode 100644
+--- a/Spring-10-ORM-TableCreation/src/main/java/com/cydeo/entity/Employee.java	(revision 37b7e055f6ebb11ce64a9897620ecf79798b1af7)
++++ /dev/null	(revision 37b7e055f6ebb11ce64a9897620ecf79798b1af7)
+@@ -1,16 +0,0 @@
+-package com.cydeo.entity;
+-
+-import javax.persistence.Entity;
+-import javax.persistence.Id;
+-
+-@Entity //creates a table through hibernate
+-public class Employee {
+-
+-    @Id
+-    private int id;
+-    private String firstName;
+-    private String lastName;
+-
+-}
+-
+-
