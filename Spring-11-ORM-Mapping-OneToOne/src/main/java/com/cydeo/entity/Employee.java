@@ -23,12 +23,11 @@ public class Employee extends BaseEntity{
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
-    public Employee(String firstName, String lastName, String email, LocalDate hireDate, LocalDate hireDate1, int salary, Gender gender) {
+    public Employee(String firstName, String lastName, String email, LocalDate hireDate, int salary, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.hireDate = hireDate;
-        this.hireDate = hireDate1;
         this.salary = salary;
         this.gender = gender;
     }
