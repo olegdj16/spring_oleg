@@ -13,6 +13,7 @@ public class DataGenerator implements CommandLineRunner {
 
     public DataGenerator(CarRepository carRepository) {
         this.carRepository = carRepository;
+
     }
 
     @Override
@@ -26,11 +27,6 @@ public class DataGenerator implements CommandLineRunner {
         carRepository.save(c1);
         carRepository.save(c2);
         carRepository.save(c3);
-
-
-
-
-
 
     }
 }
