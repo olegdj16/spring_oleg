@@ -1,11 +1,9 @@
 package com.cydeo.entity;
 
 import javax.persistence.*;
-
 import com.cydeo.enums.Gender;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.time.LocalDate;
 
 @Entity
