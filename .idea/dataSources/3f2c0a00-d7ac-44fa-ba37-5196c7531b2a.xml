@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>945</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1086</IntrospectionStateNumber>
       <ServerVersion>15.2</ServerVersion>
-      <StartupTime>1681438708</StartupTime>
+      <StartupTime>1681878457</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -806,7 +806,7 @@ false Zulu
 13183||10|C|G
 13183||-9223372036854775808|U|G
 13183||10|U|G</Grants>
-      <IntrospectionStateNumber>945</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1086</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4233,214 +4233,219 @@ false Zulu
     <schema id="263" parent="3" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>945</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1086</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>518</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <sequence id="264" parent="263" name="departments_id_seq">
-      <DasType>integer|0s</DasType>
-      <ObjectId>16886</ObjectId>
-      <StateNumber>939</StateNumber>
+    <sequence id="264" parent="263" name="merchants_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>24969</ObjectId>
+      <StateNumber>1078</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="265" parent="263" name="employees_id_seq">
-      <DasType>integer|0s</DasType>
-      <ObjectId>16895</ObjectId>
-      <StateNumber>940</StateNumber>
+    <sequence id="265" parent="263" name="payment_details_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>24978</ObjectId>
+      <StateNumber>1079</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <sequence id="266" parent="263" name="regions_id_seq">
-      <DasType>integer|0s</DasType>
-      <ObjectId>16904</ObjectId>
-      <StateNumber>941</StateNumber>
+    <sequence id="266" parent="263" name="payments_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>24985</ObjectId>
+      <StateNumber>1080</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
-    <table id="267" parent="263" name="departments">
-      <ObjectId>16887</ObjectId>
-      <StateNumber>942</StateNumber>
+    <table id="267" parent="263" name="merchants">
+      <ObjectId>24970</ObjectId>
+      <StateNumber>1081</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="268" parent="263" name="employees">
-      <ObjectId>16896</ObjectId>
-      <StateNumber>942</StateNumber>
+    <table id="268" parent="263" name="payment_details">
+      <ObjectId>24979</ObjectId>
+      <StateNumber>1082</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <table id="269" parent="263" name="regions">
-      <ObjectId>16905</ObjectId>
-      <StateNumber>943</StateNumber>
+    <table id="269" parent="263" name="payments">
+      <ObjectId>24986</ObjectId>
+      <StateNumber>1081</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="270" parent="267" name="id">
-      <DasType>integer|0s</DasType>
-      <DefaultExpression>nextval(&apos;departments_id_seq&apos;::regclass)</DefaultExpression>
+      <DasType>bigint|0s</DasType>
+      <DefaultExpression>nextval(&apos;merchants_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>939</StateNumber>
-      <SequenceId>16886</SequenceId>
-      <TypeId>23</TypeId>
+      <StateNumber>1078</StateNumber>
+      <SequenceId>24969</SequenceId>
+      <TypeId>20</TypeId>
     </column>
-    <column id="271" parent="267" name="department">
+    <column id="271" parent="267" name="code">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>939</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="272" parent="267" name="division">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="272" parent="267" name="commission_rate">
+      <DasType>numeric(19,2 digit)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>939</StateNumber>
-      <TypeId>1043</TypeId>
+      <StateNumber>1078</StateNumber>
+      <TypeId>1700</TypeId>
     </column>
-    <index id="273" parent="267" name="departments_pkey">
-      <ColNames>id</ColNames>
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16893</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>939</StateNumber>
-      <Unique>1</Unique>
-      <AccessMethodId>403</AccessMethodId>
-    </index>
-    <key id="274" parent="267" name="departments_pkey">
-      <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16894</ObjectId>
-      <Primary>1</Primary>
-      <StateNumber>939</StateNumber>
-      <UnderlyingIndexId>16893</UnderlyingIndexId>
-    </key>
-    <column id="275" parent="268" name="id">
-      <DasType>integer|0s</DasType>
-      <DefaultExpression>nextval(&apos;employees_id_seq&apos;::regclass)</DefaultExpression>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-      <StateNumber>940</StateNumber>
-      <SequenceId>16895</SequenceId>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="276" parent="268" name="email">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="277" parent="268" name="first_name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="278" parent="268" name="gender">
+    <column id="273" parent="267" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>940</StateNumber>
+      <StateNumber>1078</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="279" parent="268" name="hire_date">
-      <DasType>date|0s</DasType>
+    <column id="274" parent="267" name="payout_delay_count">
+      <DasType>integer|0s</DasType>
       <Position>5</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>1082</TypeId>
+      <StateNumber>1078</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="280" parent="268" name="last_name">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="275" parent="267" name="transaction_fee">
+      <DasType>numeric(19,2 digit)|0s</DasType>
       <Position>6</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>1043</TypeId>
+      <StateNumber>1078</StateNumber>
+      <TypeId>1700</TypeId>
     </column>
-    <column id="281" parent="268" name="salary">
-      <DasType>integer|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>7</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="282" parent="268" name="department_id">
-      <DasType>integer|0s</DasType>
-      <Position>8</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="283" parent="268" name="region_id">
-      <DasType>integer|0s</DasType>
-      <Position>9</Position>
-      <StateNumber>940</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <foreign-key id="284" parent="268" name="fkgy4qe3dnqrm3ktd76sxp7n4c2">
-      <ColNames>department_id</ColNames>
-      <ObjectId>16913</ObjectId>
-      <RefColNames>id</RefColNames>
-      <RefColPositions>1</RefColPositions>
-      <StateNumber>942</StateNumber>
-      <RefTableId>16887</RefTableId>
-      <RefTableName>departments</RefTableName>
-      <RefTableKind>table</RefTableKind>
-    </foreign-key>
-    <foreign-key id="285" parent="268" name="fk5mear4x539nfkn4jpuuvfajk4">
-      <ColNames>region_id</ColNames>
-      <ObjectId>16918</ObjectId>
-      <RefColNames>id</RefColNames>
-      <RefColPositions>1</RefColPositions>
-      <StateNumber>943</StateNumber>
-      <RefTableId>16905</RefTableId>
-      <RefTableName>regions</RefTableName>
-      <RefTableKind>table</RefTableKind>
-    </foreign-key>
-    <index id="286" parent="268" name="employees_pkey">
+    <index id="276" parent="267" name="merchants_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16902</ObjectId>
+      <ObjectId>24976</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>940</StateNumber>
+      <StateNumber>1078</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="287" parent="268" name="employees_pkey">
+    <key id="277" parent="267" name="merchants_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16903</ObjectId>
+      <ObjectId>24977</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>940</StateNumber>
-      <UnderlyingIndexId>16902</UnderlyingIndexId>
+      <StateNumber>1078</StateNumber>
+      <UnderlyingIndexId>24976</UnderlyingIndexId>
     </key>
-    <column id="288" parent="269" name="id">
-      <DasType>integer|0s</DasType>
-      <DefaultExpression>nextval(&apos;regions_id_seq&apos;::regclass)</DefaultExpression>
+    <column id="278" parent="268" name="id">
+      <DasType>bigint|0s</DasType>
+      <DefaultExpression>nextval(&apos;payment_details_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>941</StateNumber>
-      <SequenceId>16904</SequenceId>
-      <TypeId>23</TypeId>
+      <StateNumber>1079</StateNumber>
+      <SequenceId>24978</SequenceId>
+      <TypeId>20</TypeId>
     </column>
-    <column id="289" parent="269" name="country">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="279" parent="268" name="commission_amount">
+      <DasType>numeric(19,2 digit)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>941</StateNumber>
-      <TypeId>1043</TypeId>
+      <StateNumber>1079</StateNumber>
+      <TypeId>1700</TypeId>
     </column>
-    <column id="290" parent="269" name="region">
-      <DasType>varchar(255)|0s</DasType>
+    <column id="280" parent="268" name="merchant_payout_amount">
+      <DasType>numeric(19,2 digit)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>941</StateNumber>
-      <TypeId>1043</TypeId>
+      <StateNumber>1079</StateNumber>
+      <TypeId>1700</TypeId>
     </column>
-    <index id="291" parent="269" name="regions_pkey">
+    <column id="281" parent="268" name="payout_date">
+      <DasType>date|0s</DasType>
+      <Position>4</Position>
+      <StateNumber>1079</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <index id="282" parent="268" name="payment_details_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16911</ObjectId>
+      <ObjectId>24983</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>941</StateNumber>
+      <StateNumber>1079</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
-    <key id="292" parent="269" name="regions_pkey">
+    <key id="283" parent="268" name="payment_details_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>16912</ObjectId>
+      <ObjectId>24984</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>941</StateNumber>
-      <UnderlyingIndexId>16911</UnderlyingIndexId>
+      <StateNumber>1079</StateNumber>
+      <UnderlyingIndexId>24983</UnderlyingIndexId>
+    </key>
+    <column id="284" parent="269" name="id">
+      <DasType>bigint|0s</DasType>
+      <DefaultExpression>nextval(&apos;payments_id_seq&apos;::regclass)</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>1080</StateNumber>
+      <SequenceId>24985</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="285" parent="269" name="amount">
+      <DasType>numeric(19,2 digit)|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>1080</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="286" parent="269" name="created_date">
+      <DasType>date|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>1080</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="287" parent="269" name="payment_status">
+      <DasType>integer|0s</DasType>
+      <Position>4</Position>
+      <StateNumber>1080</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="288" parent="269" name="merchant_id">
+      <DasType>bigint|0s</DasType>
+      <Position>5</Position>
+      <StateNumber>1080</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="289" parent="269" name="payment_detail_id">
+      <DasType>bigint|0s</DasType>
+      <Position>6</Position>
+      <StateNumber>1080</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="290" parent="269" name="fkb9a63y4883txc4u09igbu77g6">
+      <ColNames>merchant_id</ColNames>
+      <ObjectId>24992</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>1081</StateNumber>
+      <RefTableId>24970</RefTableId>
+      <RefTableName>merchants</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <foreign-key id="291" parent="269" name="fkcflq9yh5yqv1tmalwd2p438n3">
+      <ColNames>payment_detail_id</ColNames>
+      <ObjectId>24997</ObjectId>
+      <RefColNames>id</RefColNames>
+      <RefColPositions>1</RefColPositions>
+      <StateNumber>1082</StateNumber>
+      <RefTableId>24979</RefTableId>
+      <RefTableName>payment_details</RefTableName>
+      <RefTableKind>table</RefTableKind>
+    </foreign-key>
+    <index id="292" parent="269" name="payments_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24990</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>1080</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="293" parent="269" name="payments_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>24991</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>1080</StateNumber>
+      <UnderlyingIndexId>24990</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>

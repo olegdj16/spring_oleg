@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,7 +77,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3229885",
     "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "ecc76f5dfc2d3058c38d46aa8d9b2804",
+    "spring.configuration.checksum": "624b06bfaee61797d4f4b5560a72e8a0",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -117,7 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring11OrmMappingOneToOneApplication">
+  <component name="RunManager" selected="Spring Boot.Spring12OrmOneToManyManyToManyApplication (1)">
     <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
       <module name="spring-review-project" />
@@ -230,12 +229,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring12OrmOneToManyManyToManyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-12-ORM-OneToMany-ManyToMany" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring12OrmOneToManyManyToManyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring12OrmOneToManyManyToManyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring12-ORM-OneToMany-ManyToMany" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring12OrmOneToManyManyToManyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
-        <item itemvalue="Application.CydeoApp (1)" />
+        <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Application.stereotype_annotations.CydeoApp" />
+        <item itemvalue="Application.CydeoApp (1)" />
         <item itemvalue="Application.bean_practice.CydeoApp" />
       </list>
     </recent_temporary>
@@ -272,6 +285,7 @@
       <workItem from="1681494684903" duration="22625000" />
       <workItem from="1681669651843" duration="1508000" />
       <workItem from="1681782195494" duration="1901000" />
+      <workItem from="1681918276240" duration="12388000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
