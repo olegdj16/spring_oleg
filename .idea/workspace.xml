@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="created Spring-14-ORM-Queries from home">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/entity/Region.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="cinema_lab" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -570,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682522069562</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="created Spring-14-ORM-Queries from home">
+      <created>1682522948483</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682522948483</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
