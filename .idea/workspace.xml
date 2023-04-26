@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit ORM4 many to many, Item, Cart">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/main/java/com/cydeo/Spring13OrmCinemaLabApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/Spring13OrmCinemaLabApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/main/java/com/cydeo/entity/wer/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/main/java/com/cydeo/entity/wer/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/enums/MovieState.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/main/java/com/cydeo/enums/MovieState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/enums/MovieType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/main/java/com/cydeo/enums/MovieType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/test/java/com/cydeo/Spring13OrmCinemaLabApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src34534534/test/java/com/cydeo/Spring13OrmCinemaLabApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +29,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="orm4" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +76,7 @@
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "jdk.selected.JAVA_MODULE": "11 (2)",
-    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-10-ORM-TableCreation",
+    "last_opened_file_path": "C:/Users/civic/IdeaProjects/spring_oleg/Spring-13-ORM-CinemaLab",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,11 +97,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-13-ORM-CinemaLab" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\java\com\cydeo\entity" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\resources" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\respository" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\proxy" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-05-Core-BeanScope\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
@@ -114,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring12OrmOneToManyManyToManyApplication (1)">
+  <component name="RunManager" selected="Spring Boot.Spring13OrmCinemaLabApplication">
     <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
       <module name="spring-review-project" />
@@ -128,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bean_practice.CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bean_practice.CydeoApp" />
-      <module name="spring-review-01-IoC" />
+    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
+      <module name="Spring-13-ORM-CinemaLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bean_practice.*" />
+          <option name="PATTERN" value="com.cydeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
         <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Application.stereotype_annotations.CydeoApp" />
         <item itemvalue="Application.CydeoApp (1)" />
-        <item itemvalue="Application.bean_practice.CydeoApp" />
       </list>
     </recent_temporary>
   </component>
