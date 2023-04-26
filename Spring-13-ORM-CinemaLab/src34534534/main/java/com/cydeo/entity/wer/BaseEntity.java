@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package com.cydeo.entity.wer;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

@@ -1,4 +1,4 @@
-package com.cydeo.entity;
+package com.cydeo.entity.wer;
 
 import com.cydeo.enums.MovieState;
 import com.cydeo.enums.MovieType;
@@ -30,8 +30,8 @@ public class Movie extends  BaseEntity{
 
     @ManyToMany
     @JoinTable(name = "movie_genre_rel",
-    joinColumns = @JoinColumn(name="movie_id"),
-    inverseJoinColumns = @JoinColumn(name = "genre_id"))
+            joinColumns = @JoinColumn(name="movie_id"),
+            inverseJoinColumns = @JoinColumn(name = "genre_id"))
     private List<Genre> genreList;
 
 
