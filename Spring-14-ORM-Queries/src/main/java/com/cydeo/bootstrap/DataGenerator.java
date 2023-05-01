@@ -1,5 +1,6 @@
 package com.cydeo.bootstrap;
 
+import com.cydeo.repository.DepartmentRepository;
 import com.cydeo.repository.RegionRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -8,9 +9,11 @@ import org.springframework.stereotype.Component;
 public class DataGenerator implements CommandLineRunner {
 
     private final RegionRepository regionRepository;
+    private final DepartmentRepository departmentRepository;
 
-    public DataGenerator(RegionRepository regionRepository) {
+    public DataGenerator(RegionRepository regionRepository, DepartmentRepository departmentRepository) {
         this.regionRepository = regionRepository;
+        this.departmentRepository = departmentRepository;
     }
 
     @Override
@@ -26,7 +29,12 @@ public class DataGenerator implements CommandLineRunner {
 
         System.out.println("----REGION END------------");
 
+        System.out.println("----DEPARTMENT START------------");
 
+        System.out.println("findByDepartment:" + departmentRepository.findByDepartment("Toys"));
+        System.out.println("findByDivisionIs:" + departmentRepository.findByDivisionIs("Outdoors"));
+        System.out.println("findDistinctTop3ByDivisionContains" + departmentRepository.findDistinctTop3ByDivisionContains("Hea"));
 
+        System.out.println("----DEPARTMENT END------------");
     }
 }
