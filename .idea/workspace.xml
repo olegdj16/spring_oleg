@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="1st hours ends Spring-14-ORM-Queries from home">
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring ORM Quires part1 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -298,7 +296,7 @@
       <workItem from="1681995886111" duration="8000" />
       <workItem from="1682049610195" duration="5919000" />
       <workItem from="1682145461918" duration="5120000" />
-      <workItem from="1683009413449" duration="338000" />
+      <workItem from="1683009413449" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -587,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682547033378</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Spring ORM Quires part1 2">
+      <created>1683054811572</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683054811572</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit pom xml files" />
     <MESSAGE value="commit Comment" />
     <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
     <MESSAGE value="commit ProjectConfig, CommentService" />
@@ -630,7 +634,8 @@
     <MESSAGE value="commit from home" />
     <MESSAGE value="created Spring-14-ORM-Queries from home" />
     <MESSAGE value="1st hours ends Spring-14-ORM-Queries from home" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st hours ends Spring-14-ORM-Queries from home" />
+    <MESSAGE value="Spring ORM Quires part1 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring ORM Quires part1 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
