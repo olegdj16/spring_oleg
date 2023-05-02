@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="1st hours ends Spring-14-ORM-Queries from home">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3229885",
     "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "1adc14ad3af787c472b865392a3e30d2",
+    "spring.configuration.checksum": "9df54882a7441bf27918c7878e293695",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -299,6 +298,7 @@
       <workItem from="1681995886111" duration="8000" />
       <workItem from="1682049610195" duration="5919000" />
       <workItem from="1682145461918" duration="5120000" />
+      <workItem from="1683009413449" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
