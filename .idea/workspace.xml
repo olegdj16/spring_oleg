@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring ORM Quires part1 2" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring ORM Quires part2 added Course.class">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +301,7 @@
       <workItem from="1681995886111" duration="8000" />
       <workItem from="1682049610195" duration="5919000" />
       <workItem from="1682145461918" duration="5120000" />
-      <workItem from="1683009413449" duration="1449000" />
+      <workItem from="1683009413449" duration="4351000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -592,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683054811572</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Spring ORM Quires part2 added Course.class">
+      <created>1683055192970</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683055192970</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit Comment" />
     <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
     <MESSAGE value="commit ProjectConfig, CommentService" />
     <MESSAGE value="BeanScope" />
@@ -635,7 +646,8 @@
     <MESSAGE value="created Spring-14-ORM-Queries from home" />
     <MESSAGE value="1st hours ends Spring-14-ORM-Queries from home" />
     <MESSAGE value="Spring ORM Quires part1 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring ORM Quires part1 2" />
+    <MESSAGE value="Spring ORM Quires part2 added Course.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring ORM Quires part2 added Course.class" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
