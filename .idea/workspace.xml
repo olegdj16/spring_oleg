@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring ORM Quires part2 added Course.class">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/bootstrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_25_2023_1_33_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +300,7 @@
       <workItem from="1681995886111" duration="8000" />
       <workItem from="1682049610195" duration="5919000" />
       <workItem from="1682145461918" duration="5120000" />
-      <workItem from="1683009413449" duration="4351000" />
+      <workItem from="1683009413449" duration="12318000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -604,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683055192970</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Spring ORM Quires part2 added Course.class">
+      <created>1683094776204</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1683094776205</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,7 +1,6 @@
 package com.cydeo.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -10,8 +9,9 @@ import javax.persistence.ManyToOne;
 import java.time.LocalDateTime;
 
 @Entity
-@Data
 @NoArgsConstructor
+@Getter
+@Setter
 public class Ticket extends BaseEntity {
 
     private Integer seatNumber;
@@ -25,4 +25,13 @@ public class Ticket extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     private User userAccount;
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "seatNumber=" + seatNumber +
+                ", rowNumber=" + rowNumber +
+                ", dateTime=" + dateTime +
+                '}';
+    }
 }
