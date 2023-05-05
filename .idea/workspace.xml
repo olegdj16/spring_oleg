@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="GenreRepository">
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="MovieRepository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/TicketRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +300,7 @@
       <workItem from="1682049610195" duration="5919000" />
       <workItem from="1682145461918" duration="5120000" />
       <workItem from="1683009413449" duration="12318000" />
-      <workItem from="1683155546550" duration="19622000" />
+      <workItem from="1683155546550" duration="23160000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -639,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683307607824</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="MovieRepository">
+      <created>1683316409718</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1683316409718</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +663,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit SpringBoot stuff" />
     <MESSAGE value="commit Spring-07-Spring-MVC-Controller" />
     <MESSAGE value="Spring MVS - Model" />
     <MESSAGE value="Spring MVC - Model" />
@@ -682,7 +687,8 @@
     <MESSAGE value="04.26.2023 cinemalab-solution" />
     <MESSAGE value="cinemalab-solution" />
     <MESSAGE value="GenreRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="GenreRepository" />
+    <MESSAGE value="MovieRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="MovieRepository" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
