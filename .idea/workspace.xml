@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="Spring ORM Quires part2 added Course.class">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_25_2023_1_33_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/DepartmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/cydeo/repository/EmployeeRepository.java" afterDir="false" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="GenreRepository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cinema_lab" />
+        <entry key="$PROJECT_DIR$" value="cinemalab-solution" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +64,7 @@
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "jdk.selected.JAVA_MODULE": "11 (2)",
-    "last_opened_file_path": "C:/Users/civic/IdeaProjects/spring_oleg/Spring-13-ORM-CinemaLab",
+    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +85,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-13-ORM-CinemaLab\src\main\java\com\cydeo" />
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-13-ORM-CinemaLab" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\java\com\cydeo\entity" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\resources" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\respository" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\proxy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
@@ -301,6 +301,7 @@
       <workItem from="1682049610195" duration="5919000" />
       <workItem from="1682145461918" duration="5120000" />
       <workItem from="1683009413449" duration="12318000" />
+      <workItem from="1683155546550" duration="19622000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1678421339408</created>
@@ -610,7 +611,35 @@
       <option name="project" value="LOCAL" />
       <updated>1683094776205</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="created cinemalab-solution branch">
+      <created>1683231917078</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683231917078</updated>
+    </task>
+    <task id="LOCAL-00046" summary="04.26.2023 cinemalab-solution">
+      <created>1683264362725</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1683264362725</updated>
+    </task>
+    <task id="LOCAL-00047" summary="cinemalab-solution">
+      <created>1683307277591</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683307277591</updated>
+    </task>
+    <task id="LOCAL-00048" summary="GenreRepository">
+      <created>1683307607824</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1683307607824</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,10 +657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
-    <MESSAGE value="commit ProjectConfig, CommentService" />
-    <MESSAGE value="BeanScope" />
-    <MESSAGE value="commit SpringBoot demo" />
     <MESSAGE value="commit SpringBoot stuff" />
     <MESSAGE value="commit Spring-07-Spring-MVC-Controller" />
     <MESSAGE value="Spring MVS - Model" />
@@ -653,7 +678,11 @@
     <MESSAGE value="1st hours ends Spring-14-ORM-Queries from home" />
     <MESSAGE value="Spring ORM Quires part1 2" />
     <MESSAGE value="Spring ORM Quires part2 added Course.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring ORM Quires part2 added Course.class" />
+    <MESSAGE value="created cinemalab-solution branch" />
+    <MESSAGE value="04.26.2023 cinemalab-solution" />
+    <MESSAGE value="cinemalab-solution" />
+    <MESSAGE value="GenreRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="GenreRepository" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
