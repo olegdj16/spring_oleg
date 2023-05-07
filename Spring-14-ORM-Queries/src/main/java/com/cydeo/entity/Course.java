@@ -14,7 +14,6 @@ public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @Column(name = "NAME")
     private String name;
     @Column(name = "CATEGORY")
@@ -23,7 +22,6 @@ public class Course {
     private int rating;
     @Column(name = "DESCRIPTION")
     private String description;
-
 
 
 }
