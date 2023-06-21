@@ -18,6 +18,7 @@
         <module>Spring-05-Core-BeanScope</module>
         <module>spring-review-01-IoC</module>
         <module>spring-review-project</module>
+        <module>Spring-15-REST</module>
     </modules>
 
     <properties>
