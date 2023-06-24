@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController // @Controller + @ResponseBody
+@RestController // @Controller + @ResponseBody... when you use this you make this API
 @RequestMapping("/courses/api/v1")
 public class CourseController {
 
@@ -23,7 +23,7 @@ public class CourseController {
         return list;
 
     }
-
+//@43:01 / 02 Spring REST
     @GetMapping("{id}")
     public CourseDTO getCourseById(@PathVariable("id") Long courseId){
         return courseService.getCourseById(courseId);
@@ -54,42 +54,5 @@ public class CourseController {
     public void deleteCourses(){
         courseService.deleteCourses();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="cinemalab-solution-05102023">
-      <change afterPath="$PROJECT_DIR$/Spring-15-REST/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-15-REST">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToMany-ManyToMany/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/CinemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/GenreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/GenreRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/cydeo/repository/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cinemalab-solution-05032023" />
+        <entry key="$PROJECT_DIR$" value="cinemalab-solution-05102023" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +75,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3229885",
     "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "9df54882a7441bf27918c7878e293695",
+    "spring.configuration.checksum": "a905cc8fab793fdd6116b20a0ce56e6c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -99,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-15-REST\src\main\resources" />
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-15-REST\src\main\java" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-14-ORM-Queries\src\main" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-13-ORM-CinemaLab\src\main\java\com\cydeo" />
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-13-ORM-CinemaLab" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\java\com\cydeo\entity" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
@@ -329,14 +316,8 @@
       <workItem from="1683760112551" duration="3129000" />
       <workItem from="1686786084783" duration="1064000" />
       <workItem from="1686787207208" duration="2951000" />
-      <workItem from="1687321058165" duration="2033000" />
-    </task>
-    <task id="LOCAL-00004" summary="commit Comment, CommentRepository, DBCommentRepository">
-      <created>1678484572796</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1678484572796</updated>
+      <workItem from="1687321058165" duration="4184000" />
+      <workItem from="1687626716299" duration="5919000" />
     </task>
     <task id="LOCAL-00005" summary="commit ProjectConfig, CommentService">
       <created>1678488514388</created>
@@ -674,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683760457921</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="commit Spring-15-REST">
+      <created>1687330408636</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1687330408636</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +680,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring-review-01-IoC initial commit" />
     <MESSAGE value="task 4 done" />
     <MESSAGE value="Spring 10" />
     <MESSAGE value="ORM Part-1" />
@@ -717,7 +704,8 @@
     <MESSAGE value="TicketRepository" />
     <MESSAGE value="Spring-14-ORM" />
     <MESSAGE value="cinemalab-solution-05102023" />
-    <option name="LAST_COMMIT_MESSAGE" value="cinemalab-solution-05102023" />
+    <MESSAGE value="commit Spring-15-REST" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Spring-15-REST" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
