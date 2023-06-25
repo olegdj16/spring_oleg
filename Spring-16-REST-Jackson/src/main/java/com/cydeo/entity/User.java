@@ -19,7 +19,7 @@ public class User extends BaseEntity {
 //    @JsonIgnore
     private String email;
 
-
+//we should not see password in the output. Don't show when it is GET. When it is running POST, show it to me.
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
 

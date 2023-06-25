@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-15-REST">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-16-REST-Jackson">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cinemalab-solution-05102023" />
+        <entry key="$PROJECT_DIR$" value="Spring-15-REST" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "jdk.selected.JAVA_MODULE": "11 (2)",
-    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-15-REST/src/main/resources",
+    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-16-REST-Jackson/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,11 +87,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-16-REST-Jackson\src\main\resources" />
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-16-REST-Jackson\src\main\java" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-15-REST\src\main\resources" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-15-REST\src\main\java" />
       <recent name="C:\Users\civic\Documents\spring_oleg\Spring-14-ORM-Queries\src\main" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-13-ORM-CinemaLab\src\main\java\com\cydeo" />
-      <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-13-ORM-CinemaLab" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
@@ -114,20 +115,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring15RestApplication">
-    <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
-      <module name="spring-review-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication">
     <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
       <module name="Spring-13-ORM-CinemaLab" />
@@ -262,13 +250,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-16-REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring16RestJacksonApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
         <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
         <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Application.stereotype_annotations.CydeoApp" />
-        <item itemvalue="Application.CydeoApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -317,21 +318,7 @@
       <workItem from="1686786084783" duration="1064000" />
       <workItem from="1686787207208" duration="2951000" />
       <workItem from="1687321058165" duration="4184000" />
-      <workItem from="1687626716299" duration="5919000" />
-    </task>
-    <task id="LOCAL-00005" summary="commit ProjectConfig, CommentService">
-      <created>1678488514388</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678488514388</updated>
-    </task>
-    <task id="LOCAL-00006" summary="commit">
-      <created>1678504225848</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678504225848</updated>
+      <workItem from="1687626716299" duration="12409000" />
     </task>
     <task id="LOCAL-00007" summary="BeanScope">
       <created>1678504370357</created>
@@ -662,7 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687330408636</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="commit Spring-15-REST">
+      <created>1687639067690</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1687639067691</updated>
+    </task>
+    <task id="LOCAL-00055" summary="commit Spring-16-REST-Jackson">
+      <created>1687657503132</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1687657503132</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +681,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task 4 done" />
     <MESSAGE value="Spring 10" />
     <MESSAGE value="ORM Part-1" />
     <MESSAGE value="commit2" />
@@ -705,7 +705,8 @@
     <MESSAGE value="Spring-14-ORM" />
     <MESSAGE value="cinemalab-solution-05102023" />
     <MESSAGE value="commit Spring-15-REST" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Spring-15-REST" />
+    <MESSAGE value="commit Spring-16-REST-Jackson" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Spring-16-REST-Jackson" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
