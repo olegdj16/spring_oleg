@@ -19,6 +19,7 @@
         <module>spring-review-01-IoC</module>
         <module>spring-review-project</module>
         <module>Spring-15-REST</module>
+        <module>Spring-16-REST-Jackson</module>
     </modules>
 
     <properties>

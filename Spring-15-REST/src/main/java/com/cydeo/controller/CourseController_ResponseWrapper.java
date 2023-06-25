@@ -1,5 +1,5 @@
 package com.cydeo.controller;
-
+//@1:31:35 02 Spring REST
 import com.cydeo.entity.ResponseWrapper;
 import com.cydeo.service.CourseService;
 import org.springframework.http.HttpStatus;
@@ -30,6 +30,7 @@ public class CourseController_ResponseWrapper {
 
     @GetMapping("{id}")
     public ResponseEntity<ResponseWrapper> getCourseById(@PathVariable("id") Long courseId){
-        return ResponseEntity.ok(new ResponseWrapper("course:" + courseId + "retrieved",courseService.getCourseById(courseId)));
+        return ResponseEntity
+                .ok(new ResponseWrapper("course:" + courseId + "retrieved",courseService.getCourseById(courseId)));
     }
 }
