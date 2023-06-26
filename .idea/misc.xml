@@ -17,6 +17,11 @@
         <option value="$PROJECT_DIR$/Spring-14-ORM-Queries/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Spring-17-REST-ConsumingApis2/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11 (2)" project-jdk-type="JavaSDK" />
 </project>

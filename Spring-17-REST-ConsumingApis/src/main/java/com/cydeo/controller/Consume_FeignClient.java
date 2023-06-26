@@ -21,7 +21,10 @@ public class Consume_FeignClient {
 
     @GetMapping("/api/v1/users")
     public ResponseEntity<ResponseWrapper> getUsers(){
-
+        //here we are returning data to my API
+        //body is coming from the GET user method.
+        //we need to inject user client
+        //this  is how are consuming API with the Feign Client
         return ResponseEntity.ok(new ResponseWrapper("UserList Retrieved",userClient.getUsers()));
     }
 

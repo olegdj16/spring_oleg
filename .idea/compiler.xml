@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-review-01-IoC" />
+        <module name="Spring-17-REST-ConsumingApis" />
         <module name="Spring-07-Spring-MVC-Controller" />
         <module name="Spring-00-Coupling" />
         <module name="Spring-02-Core-Wiring" />
@@ -31,6 +32,7 @@
     <bytecodeTargetLevel>
       <module name="Spring-10-ORM-TableCreation (1)" target="11" />
       <module name="Spring-10-ORM-TableCreation (2)" target="11" />
+      <module name="Spring-17-REST-ConsumingApis2" target="11" />
       <module name="Spring12-ORM-OneToMany-ManyToMany" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -49,6 +51,7 @@
       <module name="Spring-14-ORM-Queries" options="-parameters" />
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />
+      <module name="Spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="Spring12-ORM-OneToMany-ManyToMany" options="-parameters" />
     </option>
   </component>

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients //01:37:00
 public class Spring17RestConsumingApisApplication {
 
     public static void main(String[] args) {

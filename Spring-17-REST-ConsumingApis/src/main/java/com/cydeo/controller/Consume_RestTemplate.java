@@ -14,7 +14,7 @@ import java.util.Arrays;
 @RestController
 @RequestMapping("/users")
 public class Consume_RestTemplate {
-
+//here we need to provide which end point we are consuming
     private final String URI = "https://jsonplaceholder.typicode.com/users";
 
     private final RestTemplate restTemplate;
@@ -25,18 +25,18 @@ public class Consume_RestTemplate {
 
     @GetMapping
     public User[] readAllUsers(){
-
-        ResponseEntity<User[]>  responseEntity = restTemplate.getForEntity(URI,User[].class);
+//getForEntity is for DTO
+        ResponseEntity<User[]>  responseEntity = restTemplate.getForEntity(URI,User[].class); //not common
 
         return responseEntity.getBody();
 
     }
-
+//@1:06:11
     @GetMapping("{id}")
     public Object readUser(@PathVariable("id") Integer id){
 
         String URL = URI + "/{id}";
-
+//getForObject, gets the response, and then give it to you. does not care about the DTO.
         return restTemplate.getForObject(URL,Object.class,id);
     }
 
@@ -49,7 +49,7 @@ public class Consume_RestTemplate {
         headers.set("app-id","6298ebfecd0551211fce37a6");
 
         HttpEntity<String> entity = new HttpEntity<>(headers);
-
+//exchange, to be able to send certain things to a header
         ResponseEntity<Object> response = restTemplate.exchange("https://dummyapi.io/data/v1/user?limit=10", HttpMethod.GET,entity,Object.class);
 
         return response;

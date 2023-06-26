@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 @Setter
 @NoArgsConstructor
 public class ResponseWrapper {
-
+//this is our custom output
     private boolean success;
     private String message;
     private Integer code;
