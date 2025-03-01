@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-17-REST-ConsumingApis">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/FullTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/Mentor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +25,29 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Spring-16-REST-Jackson" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "olegdj16"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/olegdj16/spring_oleg.git",
+    "accountId": "ba4d2cea-facc-4613-a407-1c70cf60dad6"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2Mo2flmpo0Ji6Xtp4oaxAhuKyHs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -57,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CydeoApp.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -65,6 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "Spring-00-Coupling",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg",
     "node.js.detected.package.eslint": "true",
@@ -75,6 +77,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3229885",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "inlay.hints",
     "spring.configuration.checksum": "a905cc8fab793fdd6116b20a0ce56e6c",
     "vue.rearranger.settings.migration": "true"
@@ -112,17 +115,20 @@
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
-    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
-      <module name="Spring-13-ORM-CinemaLab" />
+  <component name="RunManager" selected="Application.CydeoApp">
+    <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tightly_coupled.CydeoApp" />
+      <module name="Spring-00-Coupling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="PATTERN" value="com.cydeo.tightly_coupled.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stereotype_annotations.CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stereotype_annotations.CydeoApp" />
-      <module name="spring-review-01-IoC" />
+    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
+      <module name="Spring-13-ORM-CinemaLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stereotype_annotations.*" />
+          <option name="PATTERN" value="com.cydeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,7 +230,7 @@
       </method>
     </configuration>
     <configuration name="Spring12OrmOneToManyManyToManyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Spring12-ORM-OneToMany-ManyToMany" />
+      <module name="Spring-12-ORM-OneToMany-ManyToMany" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring12OrmOneToManyManyToManyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,13 +279,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CydeoApp" />
         <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
         <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
         <item itemvalue="Database Script.data.sql" />
-        <item itemvalue="Application.stereotype_annotations.CydeoApp" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

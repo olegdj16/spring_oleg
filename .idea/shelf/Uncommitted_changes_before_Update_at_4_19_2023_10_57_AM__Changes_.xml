@@ -3,12 +3,8 @@
   <option name="DESCRIPTION" value="Uncommitted changes before Update at 4/19/2023 10:57 AM [Changes]" />
   <binary>
     <option name="BEFORE_PATH" value="Spring-11-ORM-Mapping-OneToOne/mvnw.cmd" />
-    <option name="AFTER_PATH" />
-    <option name="SHELVED_PATH" />
   </binary>
   <binary>
     <option name="BEFORE_PATH" value="Spring-11-ORM-Mapping-OneToOne/.mvn/wrapper/maven-wrapper.jar" />
-    <option name="AFTER_PATH" />
-    <option name="SHELVED_PATH" />
   </binary>
 </changelist>
