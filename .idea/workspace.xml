@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit">
+    <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-17-REST-ConsumingApis">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3f2c0a00-d7ac-44fa-ba37-5196c7531b2a/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-OneToOne/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-ConsumingApis/src/main/java/com/cydeo/controller/Consume_RestTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Spring-16-REST-Jackson" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,8 +65,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg/Spring-10-ORM-TableCreation",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +76,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3229885",
     "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "ecc76f5dfc2d3058c38d46aa8d9b2804",
+    "spring.configuration.checksum": "a905cc8fab793fdd6116b20a0ce56e6c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -89,11 +87,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\java\com\cydeo\entity" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-11-ORM-Mapping-OneToOne\src\main\resources" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\respository" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-06-SpringBoot-Demo\src\main\java\com\cydeo\proxy" />
-      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-05-Core-BeanScope\src\main\java" />
+      <recent name="C:\Users\civic\Documents\spring_oleg" />
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-17-REST-ConsumingApis2\src\main\resources" />
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-17-REST-ConsumingApis\src\main\java\com\cydeo\dto2" />
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-17-REST-ConsumingApis\src\main\resources" />
+      <recent name="C:\Users\civic\Documents\spring_oleg\Spring-17-REST-ConsumingApis\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\civic\IdeaProjects\spring_oleg\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
@@ -106,6 +104,7 @@
       <recent name="com.cydeo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cydeo" />
       <recent name="com.cydeo.service" />
       <recent name="com.cydeo.model" />
     </key>
@@ -117,26 +116,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring11OrmMappingOneToOneApplication">
-    <configuration name="CydeoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.CydeoApp" />
-      <module name="spring-review-project" />
+  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
+    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
+      <module name="Spring-13-ORM-CinemaLab" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bean_practice.CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bean_practice.CydeoApp" />
-      <module name="spring-review-01-IoC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bean_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,13 +216,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring12OrmOneToManyManyToManyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-12-ORM-OneToMany-ManyToMany" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring12OrmOneToManyManyToManyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring12OrmOneToManyManyToManyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring12-ORM-OneToMany-ManyToMany" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring12OrmOneToManyManyToManyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring13OrmCinemaLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-13-ORM-CinemaLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring13OrmCinemaLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring14OrmQueriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-14-ORM-Queries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring14OrmQueriesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-15-REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring15RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-16-REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring16RestJacksonApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-17-REST-ConsumingApis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring17RestConsumingApisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.data.sql" />
+        <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
+        <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
-        <item itemvalue="Application.CydeoApp (1)" />
+        <item itemvalue="Database Script.data.sql" />
         <item itemvalue="Application.stereotype_annotations.CydeoApp" />
-        <item itemvalue="Application.bean_practice.CydeoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -272,62 +313,20 @@
       <workItem from="1681494684903" duration="22625000" />
       <workItem from="1681669651843" duration="1508000" />
       <workItem from="1681782195494" duration="1901000" />
-    </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1678421339408</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678421339408</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit pom xml files">
-      <created>1678422440663</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678422440663</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit Comment">
-      <created>1678483315532</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678483315532</updated>
-    </task>
-    <task id="LOCAL-00004" summary="commit Comment, CommentRepository, DBCommentRepository">
-      <created>1678484572796</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1678484572796</updated>
-    </task>
-    <task id="LOCAL-00005" summary="commit ProjectConfig, CommentService">
-      <created>1678488514388</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678488514388</updated>
-    </task>
-    <task id="LOCAL-00006" summary="commit">
-      <created>1678504225848</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678504225848</updated>
-    </task>
-    <task id="LOCAL-00007" summary="BeanScope">
-      <created>1678504370357</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678504370357</updated>
-    </task>
-    <task id="LOCAL-00008" summary="commit">
-      <created>1678506540937</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678506540938</updated>
+      <workItem from="1681918276240" duration="16294000" />
+      <workItem from="1681995886111" duration="8000" />
+      <workItem from="1682049610195" duration="5919000" />
+      <workItem from="1682145461918" duration="5120000" />
+      <workItem from="1683009413449" duration="12318000" />
+      <workItem from="1683155546550" duration="23812000" />
+      <workItem from="1683322848804" duration="619000" />
+      <workItem from="1683331832784" duration="12518000" />
+      <workItem from="1683582028416" duration="142000" />
+      <workItem from="1683760112551" duration="3129000" />
+      <workItem from="1686786084783" duration="1064000" />
+      <workItem from="1686787207208" duration="2951000" />
+      <workItem from="1687321058165" duration="4184000" />
+      <workItem from="1687626716299" duration="19900000" />
     </task>
     <task id="LOCAL-00009" summary="commit SpringBoot demo">
       <created>1678587966678</created>
@@ -497,7 +496,182 @@
       <option name="project" value="LOCAL" />
       <updated>1681783151223</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="commit ORM4 one to many">
+      <created>1681937677391</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681937677391</updated>
+    </task>
+    <task id="LOCAL-00034" summary="commit ORM4 one to many">
+      <created>1682050206919</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1682050206919</updated>
+    </task>
+    <task id="LOCAL-00035" summary="commit ORM4 many to many, Item, Cart">
+      <created>1682115561876</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682115561876</updated>
+    </task>
+    <task id="LOCAL-00036" summary="commit from home">
+      <created>1682471949279</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682471949279</updated>
+    </task>
+    <task id="LOCAL-00037" summary="commit from home">
+      <created>1682521846594</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682521846594</updated>
+    </task>
+    <task id="LOCAL-00038" summary="created Spring-14-ORM-Queries from home">
+      <created>1682522069562</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682522069562</updated>
+    </task>
+    <task id="LOCAL-00039" summary="created Spring-14-ORM-Queries from home">
+      <created>1682522948483</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682522948483</updated>
+    </task>
+    <task id="LOCAL-00040" summary="created Spring-14-ORM-Queries from home">
+      <created>1682523316110</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682523316110</updated>
+    </task>
+    <task id="LOCAL-00041" summary="1st hours ends Spring-14-ORM-Queries from home">
+      <created>1682547033378</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1682547033378</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Spring ORM Quires part1 2">
+      <created>1683054811572</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683054811572</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Spring ORM Quires part2 added Course.class">
+      <created>1683055192970</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683055192970</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Spring ORM Quires part2 added Course.class">
+      <created>1683094776204</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1683094776205</updated>
+    </task>
+    <task id="LOCAL-00045" summary="created cinemalab-solution branch">
+      <created>1683231917078</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1683231917078</updated>
+    </task>
+    <task id="LOCAL-00046" summary="04.26.2023 cinemalab-solution">
+      <created>1683264362725</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1683264362725</updated>
+    </task>
+    <task id="LOCAL-00047" summary="cinemalab-solution">
+      <created>1683307277591</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683307277591</updated>
+    </task>
+    <task id="LOCAL-00048" summary="GenreRepository">
+      <created>1683307607824</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1683307607824</updated>
+    </task>
+    <task id="LOCAL-00049" summary="MovieRepository">
+      <created>1683316409718</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1683316409718</updated>
+    </task>
+    <task id="LOCAL-00050" summary="TicketRepository">
+      <created>1683319743353</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1683319743354</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Spring-14-ORM">
+      <created>1683433476115</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1683433476116</updated>
+    </task>
+    <task id="LOCAL-00052" summary="cinemalab-solution-05102023">
+      <created>1683760457921</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1683760457921</updated>
+    </task>
+    <task id="LOCAL-00053" summary="commit Spring-15-REST">
+      <created>1687330408636</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1687330408636</updated>
+    </task>
+    <task id="LOCAL-00054" summary="commit Spring-15-REST">
+      <created>1687639067690</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1687639067691</updated>
+    </task>
+    <task id="LOCAL-00055" summary="commit Spring-16-REST-Jackson">
+      <created>1687657503132</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1687657503132</updated>
+    </task>
+    <task id="LOCAL-00056" summary="commit Spring-16-REST-Jackson">
+      <created>1687661196395</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1687661196395</updated>
+    </task>
+    <task id="LOCAL-00057" summary="commit Spring-17-REST-ConsumingApis">
+      <created>1687672634863</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1687672634863</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,19 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit pom xml files" />
-    <MESSAGE value="commit Comment" />
-    <MESSAGE value="commit Comment, CommentRepository, DBCommentRepository" />
-    <MESSAGE value="commit ProjectConfig, CommentService" />
-    <MESSAGE value="BeanScope" />
-    <MESSAGE value="commit SpringBoot demo" />
-    <MESSAGE value="commit SpringBoot stuff" />
-    <MESSAGE value="commit Spring-07-Spring-MVC-Controller" />
-    <MESSAGE value="Spring MVS - Model" />
-    <MESSAGE value="Spring MVC - Model" />
-    <MESSAGE value="spring-review-01-IoC initial commit" />
-    <MESSAGE value="task 4 done" />
-    <MESSAGE value="Spring 10" />
     <MESSAGE value="ORM Part-1" />
     <MESSAGE value="commit2" />
     <MESSAGE value="commit Car, day2" />
@@ -535,7 +696,25 @@
     <MESSAGE value="commit Spring 11, day3" />
     <MESSAGE value="commit DataGenerator" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit ORM4 one to many" />
+    <MESSAGE value="commit ORM4 many to many, Item, Cart" />
+    <MESSAGE value="commit from home" />
+    <MESSAGE value="created Spring-14-ORM-Queries from home" />
+    <MESSAGE value="1st hours ends Spring-14-ORM-Queries from home" />
+    <MESSAGE value="Spring ORM Quires part1 2" />
+    <MESSAGE value="Spring ORM Quires part2 added Course.class" />
+    <MESSAGE value="created cinemalab-solution branch" />
+    <MESSAGE value="04.26.2023 cinemalab-solution" />
+    <MESSAGE value="cinemalab-solution" />
+    <MESSAGE value="GenreRepository" />
+    <MESSAGE value="MovieRepository" />
+    <MESSAGE value="TicketRepository" />
+    <MESSAGE value="Spring-14-ORM" />
+    <MESSAGE value="cinemalab-solution-05102023" />
+    <MESSAGE value="commit Spring-15-REST" />
+    <MESSAGE value="commit Spring-16-REST-Jackson" />
+    <MESSAGE value="commit Spring-17-REST-ConsumingApis" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Spring-17-REST-ConsumingApis" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
