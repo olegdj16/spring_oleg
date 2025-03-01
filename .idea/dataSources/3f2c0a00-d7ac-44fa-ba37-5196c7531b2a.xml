@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="postgres@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <IntrospectionStateNumber>33221</IntrospectionStateNumber>
@@ -4263,9 +4263,11 @@ false Zulu
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="270" parent="269" name="courses_id_seq">
-      <DasType>bigint|0s</DasType>
       <ObjectId>49039</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>33211</StateNumber>
+      <StoredType>bigint|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="271" parent="269" name="courses">
@@ -4275,36 +4277,36 @@ false Zulu
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="272" parent="271" name="id">
-      <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;courses_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>33211</StateNumber>
+      <StoredType>bigint|0s</StoredType>
       <SequenceId>49039</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="273" parent="271" name="category">
-      <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
       <StateNumber>33211</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="274" parent="271" name="description">
-      <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
       <StateNumber>33211</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="275" parent="271" name="name">
-      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
       <StateNumber>33211</StateNumber>
+      <StoredType>varchar(255)|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
     <column id="276" parent="271" name="rating">
-      <DasType>integer|0s</DasType>
       <Position>5</Position>
       <StateNumber>33211</StateNumber>
+      <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
     <index id="277" parent="271" name="courses_pkey">
