@@ -12,7 +12,6 @@ public class ConfigApp {
         return new FullTimeMentor();
     }
 
-
     @Bean
     @Primary
     PartTimeMentor partTimeMentor(){

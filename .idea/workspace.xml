@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-17-REST-ConsumingApis">
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/FullTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/FullTimeMentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-00-Coupling/src/main/java/com/cydeo/tightly_coupled/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigAny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/PartTimeMentor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,24 +33,24 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "olegdj16"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;olegdj16&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/olegdj16/spring_oleg.git",
-    "accountId": "ba4d2cea-facc-4613-a407-1c70cf60dad6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/olegdj16/spring_oleg.git&quot;,
+    &quot;accountId&quot;: &quot;ba4d2cea-facc-4613-a407-1c70cf60dad6&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Mo2flmpo0Ji6Xtp4oaxAhuKyHs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -58,6 +61,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CydeoApp.executor": "Run",
+    "Application.com.olegarts.bean_annotation.CydeoApp.executor": "Run",
+    "Maven.Spring-01-Core-IoC [clean].executor": "Run",
+    "Maven.Spring-01-Core-IoC [install].executor": "Run",
+    "Maven.Spring-01-Core-IoC [validate].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -66,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "Spring-00-Coupling",
+    "git-widget-placeholder": "Spring-01-Core-IoC",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg",
     "node.js.detected.package.eslint": "true",
@@ -122,7 +129,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CydeoApp">
+  <component name="RunManager" selected="Application.com.olegarts.bean_annotation.CydeoApp">
     <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tightly_coupled.CydeoApp" />
       <module name="Spring-00-Coupling" />
@@ -149,10 +156,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="data.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/data.sql" />
-      <script-mode>FILE</script-mode>
-      <method v="2" />
+    <configuration name="com.olegarts.bean_annotation.CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.olegarts.bean_annotation.CydeoApp" />
+      <module name="Spring-01-Core-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.olegarts.bean_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring_oleg" />
@@ -279,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.olegarts.bean_annotation.CydeoApp" />
         <item itemvalue="Application.CydeoApp" />
         <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
         <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
         <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
-        <item itemvalue="Database Script.data.sql" />
       </list>
     </recent_temporary>
   </component>
