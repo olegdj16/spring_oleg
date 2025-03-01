@@ -12,11 +12,19 @@ public class ConfigApp {
         return new FullTimeMentor();
     }
 
+//    @Bean(name = "p1")
     @Bean
     @Primary
-    PartTimeMentor partTimeMentor(){
+    PartTimeMentor partTimeMentorP1(){
+        System.out.println("Part Time p1 Mentor is created");
         return new PartTimeMentor();
     }
 
+//    @Bean(name = "p2")
+    @Bean
+    PartTimeMentor partTimeMentorP2(){
+        System.out.println("Part Time p2 Mentor is created");
+        return new PartTimeMentor();
 
+    }
 }

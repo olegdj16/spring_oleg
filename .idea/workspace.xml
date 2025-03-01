@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-17-REST-ConsumingApis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigAny.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigAny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/PartTimeMentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/PartTimeMentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/ConfigApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/ConfigApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/CydeoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/CydeoApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
