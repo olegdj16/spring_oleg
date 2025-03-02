@@ -6,10 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-17-REST-ConsumingApis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/ConfigApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/ConfigApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/ConfigApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/CydeoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/bean_annotation/CydeoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoAppUsingBeanAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Agile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Agile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/CydeoAppUsingStereotypeAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Agile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Agile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/CydeoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/CydeoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Java.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Java.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Selenium.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CydeoApp.executor": "Run",
+    "Application.CydeoAppUsingBeanAnnotation.executor": "Run",
     "Application.com.olegarts.bean_annotation.CydeoApp.executor": "Run",
+    "Application.com.olegarts.stereotype_annotation.CydeoApp.executor": "Run",
     "Maven.Spring-01-Core-IoC [clean].executor": "Run",
     "Maven.Spring-01-Core-IoC [install].executor": "Run",
     "Maven.Spring-01-Core-IoC [validate].executor": "Run",
@@ -129,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.olegarts.bean_annotation.CydeoApp">
+  <component name="RunManager" selected="Application.CydeoAppUsingStereotypeAnnotation">
     <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tightly_coupled.CydeoApp" />
       <module name="Spring-00-Coupling" />
@@ -143,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
-      <module name="Spring-13-ORM-CinemaLab" />
+    <configuration name="CydeoAppUsingBeanAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.olegarts.bean_annotation.CydeoAppUsingBeanAnnotation" />
+      <module name="Spring-01-Core-IoC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="PATTERN" value="com.olegarts.bean_annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +163,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.olegarts.bean_annotation.CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.olegarts.bean_annotation.CydeoApp" />
+    <configuration name="CydeoAppUsingStereotypeAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.olegarts.stereotype_annotation.CydeoAppUsingStereotypeAnnotation" />
       <module name="Spring-01-Core-IoC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.olegarts.bean_annotation.*" />
+          <option name="PATTERN" value="com.olegarts.stereotype_annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
+      <module name="Spring-13-ORM-CinemaLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,19 +219,6 @@
     <configuration name="Spring08SpringMvcModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-08-Spring-MVC-Model" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring08SpringMvcModelApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring09SpringThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Spring-09-Spring-Thymeleaf" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring09SpringThymeleafApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -294,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.olegarts.bean_annotation.CydeoApp" />
+        <item itemvalue="Application.CydeoAppUsingStereotypeAnnotation" />
+        <item itemvalue="Application.CydeoAppUsingBeanAnnotation" />
         <item itemvalue="Application.CydeoApp" />
         <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
         <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
-        <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
       </list>
     </recent_temporary>
   </component>
