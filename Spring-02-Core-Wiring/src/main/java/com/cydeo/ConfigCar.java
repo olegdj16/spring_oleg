@@ -7,11 +7,13 @@ import org.springframework.context.annotation.Configuration;
 public class ConfigCar {
     @Bean
     Car car(){
+        // create one Car object
         Car c = new Car();
         c.setMake("Honda");
         return c;
     }
 
+    // Direct wiring
 //    @Bean
 //    Person person(){
 //        Person p = new Person();
