@@ -1,7 +1,7 @@
-package com.cydeo.entity.wer;
+package com.olegarts.entity.wer;
 
-import com.cydeo.enums.MovieState;
-import com.cydeo.enums.MovieType;
+import com.olegarts.enums.MovieState;
+import com.olegarts.enums.MovieType;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

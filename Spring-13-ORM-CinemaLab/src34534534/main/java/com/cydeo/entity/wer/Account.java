@@ -1,6 +1,6 @@
-package com.cydeo.entity.wer;
+package com.olegarts.entity.wer;
 
-import com.cydeo.enums.UserRole;
+import com.olegarts.enums.UserRole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
