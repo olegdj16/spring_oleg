@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fb7bb45-b402-45f7-beb3-5f49a5e5bacf" name="Changes" comment="commit Spring-17-REST-ConsumingApis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/bean_annotation/CydeoAppUsingBeanAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Agile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Agile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/CydeoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/CydeoAppUsingStereotypeAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/olegarts/stereotype_annotation/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Agile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Agile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/CydeoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/CydeoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Java.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Java.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/olegarts/stereotype_annotation/Selenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/com/cydeo/ConfigCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/com/cydeo/ConfigCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/com/cydeo/DealerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-Core-Wiring/src/main/java/com/cydeo/DealerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +53,14 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CydeoApp.executor": "Run",
     "Application.CydeoAppUsingBeanAnnotation.executor": "Run",
+    "Application.DealerApp.executor": "Run",
     "Application.com.olegarts.bean_annotation.CydeoApp.executor": "Run",
     "Application.com.olegarts.stereotype_annotation.CydeoApp.executor": "Run",
     "Maven.Spring-01-Core-IoC [clean].executor": "Run",
@@ -80,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "Spring-01-Core-IoC",
+    "git-widget-placeholder": "Spring-02-Core-Wiring",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "C:/Users/civic/Documents/spring_oleg",
     "node.js.detected.package.eslint": "true",
@@ -136,7 +130,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CydeoAppUsingStereotypeAnnotation">
+  <component name="RunManager" selected="Application.DealerApp">
     <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cydeo.tightly_coupled.CydeoApp" />
       <module name="Spring-00-Coupling" />
@@ -176,9 +170,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring13OrmCinemaLabApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.Spring13OrmCinemaLabApplication" />
-      <module name="Spring-13-ORM-CinemaLab" />
+    <configuration name="DealerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.DealerApp" />
+      <module name="Spring-02-Core-Wiring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cydeo.*" />
@@ -301,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DealerApp" />
         <item itemvalue="Application.CydeoAppUsingStereotypeAnnotation" />
         <item itemvalue="Application.CydeoAppUsingBeanAnnotation" />
         <item itemvalue="Application.CydeoApp" />
         <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
-        <item itemvalue="Application.Spring13OrmCinemaLabApplication" />
       </list>
     </recent_temporary>
   </component>
