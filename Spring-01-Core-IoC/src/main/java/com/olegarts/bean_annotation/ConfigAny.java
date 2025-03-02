@@ -11,6 +11,8 @@ public class ConfigAny {
         return "Developer";
     }
 
+    // add @Bean here, need to use class name
+    @Bean
     Integer number(){
         return 100;
     }
