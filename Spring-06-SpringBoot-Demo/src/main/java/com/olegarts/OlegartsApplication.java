@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class CydeoApplication {
+public class OlegartsApplication {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class CydeoApplication {
         comment.setAuthor("Johnson");
         comment.setText("Spring Framework");
 
-        ApplicationContext context = SpringApplication.run(CydeoApplication.class, args);
+        ApplicationContext context = SpringApplication.run(OlegartsApplication.class, args);
 
         CommentService cs = context.getBean(CommentService.class);
         cs.publishComment(comment);
