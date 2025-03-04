@@ -4,10 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class UserController {
+public class ContactController {
 
-    @RequestMapping("/user")
-    public String user(){
-        return "/user";
+    @RequestMapping("/contact")
+    public String contactPage(){
+        return "/contact";
     }
+
+
 }
