@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>School List</title>
+</head>
+<body>
+
+<h2>School List</h2>
+
+<p th:if="${schools == null or schools.isEmpty()}">No schools found.</p>
+
+<table th:if="${schools != null and not schools.isEmpty()}" border="1">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Subjects</th>
+        <th>Student Count</th>
+        <th>Status</th>
+        <th>Average Grade</th>
+        <th>Established</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="school : ${schools}">
+        <td th:text="${school.name}"></td>
+        <td>
+            <ul>
+                <li th:each="subject : ${school.subjects}" th:text="${subject}"></li>
+            </ul>
+        </td>
+        <td th:text="${school.studentCount}"></td>
+        <td>
+            <span th:if="${school.isOpen}" style="color: green;">Open</span>
+            <span th:unless="${school.isOpen}" style="color: red;">Closed</span>
+        </td>
+        <td th:text="|${#numbers.formatDecimal(school.averageGrade, 1, 2)}%|"></td>
+        <td th:text="${#temporals.format(school.establishedDate, 'yyyy-MM-dd')}"></td> <!-- ✅ Fixed -->
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
