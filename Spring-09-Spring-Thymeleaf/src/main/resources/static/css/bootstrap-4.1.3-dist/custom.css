@@ -1,9 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
 
-.cydeo {
-    background-color: blue;
-    border: 1px solid gray;
+h2, h3 {
+    color: #333;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
     color: white;
-    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    display: block;
+    margin: 5px 0;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
     padding: 0;
+}
+
+li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+/* Useful Links Section */
+.useful-links {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+.useful-links a {
+    display: inline-block;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+    text-align: center;
+    min-width: 200px; /* Ensures buttons are uniform in width */
+}
+
+.useful-links a:hover {
+    background-color: #0056b3;
+    text-decoration: none;
 }
 

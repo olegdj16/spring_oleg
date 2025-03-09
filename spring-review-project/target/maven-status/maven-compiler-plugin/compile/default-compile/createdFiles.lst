@@ -1,0 +1,11 @@
+com\olegarts\repository\RegularHours.class
+com\olegarts\service\SalaryService.class
+com\olegarts\repository\EmployeeRepository.class
+com\olegarts\model\Employee.class
+com\olegarts\repository\HoursRepository.class
+com\olegarts\repository\OvertimeHours.class
+com\olegarts\repository\DBEmployeeRepository.class
+com\olegarts\config\EmployeeConfig.class
+com\olegarts\CydeoApp.class
+com\olegarts\Main.class
+com\olegarts\service\OvertimeSalaryService.class

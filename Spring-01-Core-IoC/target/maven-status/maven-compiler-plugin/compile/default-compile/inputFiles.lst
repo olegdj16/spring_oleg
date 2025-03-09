@@ -1,10 +1,11 @@
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\bean_annotation\ConfigAny.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\bean_annotation\ConfigApp.java
-C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\bean_annotation\CydeoApp.java
+C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\bean_annotation\CydeoAppUsingBeanAnnotation.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\bean_annotation\FullTimeMentor.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\bean_annotation\PartTimeMentor.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\Agile.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\ConfigCourse.java
-C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\CydeoApp.java
+C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\CydeoAppUsingStereotypeAnnotation.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\Java.java
 C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\Selenium.java
+C:\Users\civic\IdeaProjects\spring_oleg\Spring-01-Core-IoC\src\main\java\com\olegarts\stereotype_annotation\Sql.java

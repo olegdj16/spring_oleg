@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-@RequestMapping("/student")
+//@RequestMapping("/student") // set it global
 public class StudentController {
 
 //    @RequestMapping(value = "/register", method = RequestMethod.GET)
-    @GetMapping("/register")
+    @GetMapping("/newStudent")
     public String register(Model model){
 
         model.addAttribute("students", DataGenerator.createStudent());
