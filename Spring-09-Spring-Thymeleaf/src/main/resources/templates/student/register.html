@@ -41,11 +41,13 @@
 <!-- Useful Links -->
 <h3 class="mt-4">Useful Links:</h3>
 <div class="useful-links">
-    <a th:href="@{https://olegarts.com}" class="btn btn-primary">Oleg Arts Home Page</a>
-    <a th:href="@{/student/welcome}" class="btn btn-primary">Welcome Page</a>
+    <!-- ✅ Fixed External Link -->
+    <a href="https://olegarts.com" target="_blank" class="btn btn-primary">Oleg Arts Home Page</a>
+    <a th:href="@{/welcome}" class="btn btn-primary">Welcome Page</a>
     <a th:href="@{/student/welcome(id=3)}" class="btn btn-primary">Welcome Page (id=3)</a>
-    <a th:href="@{/student/welcome(id=${students.get(0).firstName})}" class="btn btn-primary">Welcome Page (Dynamic ID)</a>
+    <a th:href="@{/student/welcome(id=${students[0].firstName})}" class="btn btn-primary">Welcome Page (Dynamic ID)</a>
 </div>
+
 
 
 <!-- Student List -->
