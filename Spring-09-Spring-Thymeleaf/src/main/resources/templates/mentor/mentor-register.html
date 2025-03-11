@@ -2,41 +2,77 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>Mentor Registration</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
-<body>
-<div align="center"></div>
+<body class="bg-light">
 
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Mentor Registration</h2>
 
-    <form th:action="@{/mentor/confirm}" method="post" th:object="${mentor}"> <!--mentor is coming from MentorController line16-->
-        <label>First Name:</label>
-        <input type="text" id="FirstName" th:field="*{firstName}">
-<br>
-        <lable>LastName:</lable>
-        <input type="text" id="LastName" th:field="*{lastName}">
-<br>
-        <lable>Email:</lable>
-        <input type="text" id="email" th:field="*{email}">
-<br>
-        <lable>Graduated</lable>
-        <input type="checkbox" th:field="*{graduated}">
-<br>
-        <lable>Gender</lable>
-        <input type="radio" value="Male" th:field="*{gender}">Male
-        <input type="radio" value="Female" th:field="*{gender}">Female
-<br>
-        <lable>Batch Number:</lable>
-        <select th:field="*{batch}">
-            <option th:each="theBatch : ${batchList}" th:value="${theBatch}" th:text="${theBatch}"></option>
-        </select>
-<br>
-        <lable>Company:</lable>
-        <textarea th:field="*{company}"></textarea>
-<br>
-        <button type="submit">Register</button>
-</form>
+    <form th:action="@{/mentor/confirm}" method="post" th:object="${mentor}" class="card p-4 shadow-sm bg-white">
+        <table class="table table-bordered table-hover">
+            <thead class="table-dark">
+            <tr>
+                <th>Field</th>
+                <th>Input</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><label for="FirstName" class="form-label">First Name:</label></td>
+                <td><input type="text" id="FirstName" th:field="*{firstName}" class="form-control" required></td>
+            </tr>
+            <tr>
+                <td><label for="LastName" class="form-label">Last Name:</label></td>
+                <td><input type="text" id="LastName" th:field="*{lastName}" class="form-control" required></td>
+            </tr>
+            <tr>
+                <td><label for="email" class="form-label">Email:</label></td>
+                <td><input type="email" id="email" th:field="*{email}" class="form-control" required></td>
+            </tr>
+            <tr>
+                <td><label for="graduated" class="form-label">Graduated:</label></td>
+                <td><input type="checkbox" id="graduated" th:field="*{graduated}" class="form-check-input"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="male" value="Male" th:field="*{gender}" class="form-check-input">
+                        <label for="male" class="form-check-label">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" id="female" value="Female" th:field="*{gender}" class="form-check-input">
+                        <label for="female" class="form-check-label">Female</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="batch" class="form-label">Batch Number:</label></td>
+                <td>
+                    <select id="batch" th:field="*{batch}" class="form-select">
+                        <option th:each="theBatch : ${batchList}" th:value="${theBatch}" th:text="${theBatch}"></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="company" class="form-label">Company:</label></td>
+                <td><textarea id="company" th:field="*{company}" class="form-control"></textarea></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-primary px-4">Register</button>
+        </div>
+    </form>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

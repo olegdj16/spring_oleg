@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
+@NoArgsConstructor // mandatory for @AllArgsConstructor to work
 @AllArgsConstructor
 @Data
 public class Mentor {
