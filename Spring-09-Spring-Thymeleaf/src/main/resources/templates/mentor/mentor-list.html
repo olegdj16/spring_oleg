@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registered Mentors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+<div class="container mt-5">
+    <h2 class="text-center">Registered Mentors</h2>
+
+    <table class="table table-bordered table-hover mt-3">
+        <thead class="table-dark">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Graduated</th>
+            <th>Gender</th>
+            <th>Batch</th>
+            <th>Company</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="mentor : ${mentors}">
+            <td th:text="${mentor.firstName}"></td>
+            <td th:text="${mentor.lastName}"></td>
+            <td th:text="${mentor.email}"></td>
+            <td th:text="${mentor.graduated ? 'Yes' : 'No'}"></td>
+            <td th:text="${mentor.gender}"></td>
+            <td th:text="${mentor.batch}"></td>
+            <td th:text="${mentor.company}"></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="text-center mt-3">
+        <a href="/mentor/register" class="btn btn-primary">Add Another Mentor</a>
+    </div>
+</div>
+</body>
+</html>
