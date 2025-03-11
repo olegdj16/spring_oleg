@@ -1,0 +1,9 @@
+com\olegarts\repository\CommentRepository.class
+com\olegarts\service\CommentService.class
+com\olegarts\proxy\CommentNotificationProxy.class
+com\olegarts\proxy\CommentPushNotificationProxy.class
+com\olegarts\model\Comment.class
+com\olegarts\repository\DBCommentRepository.class
+com\olegarts\config\ProjectConfig.class
+com\olegarts\CydeoApp.class
+com\olegarts\proxy\EmailCommentNotificationProxy.class

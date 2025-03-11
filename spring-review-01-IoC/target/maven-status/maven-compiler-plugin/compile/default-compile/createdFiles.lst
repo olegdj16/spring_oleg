@@ -1,0 +1,11 @@
+bean_practice\AppConfig.class
+stereotype_annotations\model\Microservice.class
+bean_practice\NewAppConfig.class
+stereotype_annotations\model\ExtraHours.class
+stereotype_annotations\config\AppConfig.class
+stereotype_annotations\model\DevOps.class
+stereotype_annotations\CydeoApp.class
+bean_practice\CydeoApp.class
+bean_practice\FullTimeEmployee.class
+bean_practice\PartTimeEmployee.class
+stereotype_annotations\model\DataStructure.class

@@ -2,9 +2,10 @@ com\olegarts\bean_annotation\ConfigApp.class
 com\olegarts\stereotype_annotation\Agile.class
 com\olegarts\bean_annotation\PartTimeMentor.class
 com\olegarts\bean_annotation\FullTimeMentor.class
-com\olegarts\bean_annotation\CydeoApp.class
+com\olegarts\stereotype_annotation\Sql.class
+com\olegarts\stereotype_annotation\CydeoAppUsingStereotypeAnnotation.class
 com\olegarts\stereotype_annotation\ConfigCourse.class
 com\olegarts\bean_annotation\ConfigAny.class
-com\olegarts\stereotype_annotation\CydeoApp.class
 com\olegarts\stereotype_annotation\Java.class
 com\olegarts\stereotype_annotation\Selenium.class
+com\olegarts\bean_annotation\CydeoAppUsingBeanAnnotation.class

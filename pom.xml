@@ -13,9 +13,12 @@
         <module>Spring-01-Core-IoC</module>
         <module>Spring-02-Core-Wiring</module>
         <module>Spring-03-Core-DI</module>
-        <module>Spring-00-Coupling</module>
         <module>Spring-04-Abstraction</module>
         <module>Spring-05-Core-BeanScope</module>
+        <module>Spring-06-SpringBoot-Demo</module>
+        <module>Spring-07-Spring-MVC-Controller</module>
+        <module>Spring-08-Spring-MVC-Model</module>
+        <module>Spring-09-Spring-Thymeleaf</module>
         <module>spring-review-01-IoC</module>
         <module>spring-review-project</module>
         <module>Spring-15-REST</module>

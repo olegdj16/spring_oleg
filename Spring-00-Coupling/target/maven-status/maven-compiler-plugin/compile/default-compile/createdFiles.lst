@@ -1,0 +1,10 @@
+com\olegarts\loosely_coupled\MentorAccount.class
+com\olegarts\tightly_coupled\PartTimeMentor.class
+com\olegarts\loosely_coupled\FullTimeMentor.class
+com\olegarts\tightly_coupled\Mentor.class
+weerge.class
+com\olegarts\tightly_coupled\CydeoApp.class
+com\olegarts\loosely_coupled\CydeoApp.class
+com\olegarts\loosely_coupled\PartTimeMentor.class
+com\olegarts\loosely_coupled\Mentor.class
+com\olegarts\tightly_coupled\FullTimeMentor.class
