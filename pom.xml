@@ -24,6 +24,7 @@
         <module>Spring-15-REST</module>
         <module>Spring-16-REST-Jackson</module>
         <module>Spring-17-REST-ConsumingApis</module>
+        <module>spring-review-001-IoC</module>
     </modules>
 
     <properties>
